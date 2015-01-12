@@ -1,0 +1,23 @@
+#ifndef DOCK_H_INCLUDED
+#include "Ship.h"
+#define DOCK_H_INCLUDED
+using namespace std;
+
+class Dock{
+public:
+    int _id;
+    Ship* _bateau;
+
+    Dock(int id = 0, Ship* bateau = NULL);
+    ~Dock();
+
+    int reservation(Ship* bateau);
+    void annulation();
+    int surreservation(Ship* bateau);
+};
+
+#endif // DOCK_H_INCLUDED
+
+
+
+

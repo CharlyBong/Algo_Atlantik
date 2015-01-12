@@ -1,0 +1,6 @@
+<map id="Bateau" name="Bateau">
+<area shape="rect" id="node2" href="$class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) " alt="" coords="5,95,49,121"/>
+<area shape="rect" id="node3" href="$class_ship.html" title="un bateau " alt="" coords="74,95,122,121"/>
+<area shape="rect" id="node4" href="$class_engine.html" title="Moteur d&#39;un Ship. " alt="" coords="27,5,89,32"/>
+<area shape="rect" id="node5" href="$class_hull.html" title="Coque d&#39;un Ship. " alt="" coords="116,5,160,32"/>
+</map>

@@ -1,0 +1,15 @@
+#ifndef H_KESTRELPARTSFACTORY
+#define H_KESTRELPARTSFACTORY
+
+#include "ShipPartsFactory.h"
+
+class KestrelPartsFactory:public ShipPartsFactory
+{
+public:
+    KestrelPartsFactory();
+    Hull* createHull();
+    Engine* createEngine();
+
+};
+
+#endif // H_KESTRELPARTSFACTORY

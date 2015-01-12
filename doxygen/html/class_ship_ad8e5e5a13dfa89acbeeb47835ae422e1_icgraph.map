@@ -1,0 +1,5 @@
+<map id="Ship::getNom" name="Ship::getNom">
+<area shape="rect" id="node2" href="$class_harbor.html#a78a3f2a6e18ecd6e9b4931fba26b3bf3" title="Insertion d&#39;un bateau : Ajoute un Ship sur la grille, en le fessant entrée pas les cases de départ pr..." alt="" coords="168,5,283,32"/>
+<area shape="rect" id="node3" href="$class_harbor.html#a8bc3552dfadc36e53f09f280915be000" title="Réservation d&#39;un quai pour un bateau : réserve un quai pour un bateau, s&#39;il n&#39;y a pas de place..." alt="" coords="155,56,296,83"/>
+<area shape="rect" id="node4" href="$class_harbor.html#ab3319da88c8373cdef4f6fb6b62aec11" title="Gestion de collision entre deux bateau. " alt="" coords="168,107,283,133"/>
+</map>

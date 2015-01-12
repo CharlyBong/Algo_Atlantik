@@ -1,0 +1,4 @@
+<map id="Ship::~Ship" name="Ship::~Ship">
+<area shape="rect" id="node2" href="$class_cycle.html#af478b382c313d045637c0b6de7aa8846" title="Créer un bateau et le faire rentrer dans le port. " alt="" coords="144,5,269,32"/>
+<area shape="rect" id="node3" href="$class_harbor.html#ab3319da88c8373cdef4f6fb6b62aec11" title="Gestion de collision entre deux bateau. " alt="" coords="149,56,264,83"/>
+</map>

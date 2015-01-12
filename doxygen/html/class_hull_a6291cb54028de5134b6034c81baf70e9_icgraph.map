@@ -1,0 +1,6 @@
+<map id="Hull::getSolidity" name="Hull::getSolidity">
+<area shape="rect" id="node2" href="$class_kestrel_hull.html#ac908311fba1892eeb25150c154853b14" title="KestrelHull::operator\&lt;" alt="" coords="167,5,315,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#ada4a1b54f8d361b71159401985880868" title="Ship::getHullSolidity" alt="" coords="171,56,310,83"/>
+<area shape="rect" id="node5" href="$class_stealth_hull.html#a2d63e7fb4b97e8544d186bbb91a084ee" title="StealthHull::operator\&lt;" alt="" coords="167,107,315,133"/>
+<area shape="rect" id="node4" href="$class_harbor.html#ab3319da88c8373cdef4f6fb6b62aec11" title="Gestion de collision entre deux bateau. " alt="" coords="363,56,477,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Cycle::movesship" name="Cycle::movesship">
+<area shape="rect" id="node2" href="$class_ship.html#a2d18b0a7e563f23918cbdd28bf8f919e" title="Ship::isMoveOK" alt="" coords="177,5,292,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#ade3a6f90daab94e72f1b80b49b179f33" title="Ship::getSpeed" alt="" coords="179,56,290,83"/>
+<area shape="rect" id="node4" href="$class_engine.html#ac9f1a30e1093a4d29c1c3e92e6f2419f" title="Engine::getSpeed" alt="" coords="340,56,465,83"/>
+</map>

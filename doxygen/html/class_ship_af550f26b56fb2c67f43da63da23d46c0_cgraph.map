@@ -1,0 +1,4 @@
+<map id="Ship::Ship" name="Ship::Ship">
+<area shape="rect" id="node2" href="$class_stealth_parts_factory.html#a61aeac32066b30901bca18b8dfa236ee" title="StealthPartsFactory\l::createEngine" alt="" coords="136,5,275,47"/>
+<area shape="rect" id="node3" href="$class_stealth_parts_factory.html#a9baabc4682581e39a9a713be1851e6a8" title="StealthPartsFactory\l::createHull" alt="" coords="136,71,275,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Ship::getPriority" name="Ship::getPriority">
+<area shape="rect" id="node2" href="$class_dock.html#ad0e9ede311e47737897bcc65219b18ef" title="Effectue une surréservation d&#39;un dock. " alt="" coords="168,5,308,32"/>
+<area shape="rect" id="node3" href="$class_harbor.html#a8bc3552dfadc36e53f09f280915be000" title="Réservation d&#39;un quai pour un bateau : réserve un quai pour un bateau, s&#39;il n&#39;y a pas de place..." alt="" coords="356,5,497,32"/>
+</map>

@@ -1,0 +1,42 @@
+/**
+ * \file main.cpp
+ * \brief Fichier principal du programme
+ * Fichier de départ du programme
+ * \author Charles Bong.
+ * \date 21 Novembre 2014
+ */
+#include <iostream>
+#include "Ship.h"
+#include "Harbor.h"
+#include "Cycle.h"
+
+using namespace std;
+
+int main()
+{
+    /*Ship* s1 = new Ship("poyo");
+    Harbor* Perl = Harbor::getInstance();
+
+    Cell c1 =Perl->addShip(s1);
+    Ship* s2 = new Ship("terra");
+    Cell c2 =Perl->addShip(s2);
+
+    cout << "s1: " << s1->getNom() << endl;
+    cout << "s2: " << s2->getNom() << endl;
+    s1->SetNom("poya");
+    Perl->print();
+    Cell c3 = Perl->getresaDock(s1);
+    Perl->MoveTo(c1,c3);
+
+    s1->~Ship();
+    s2->~Ship();
+    c1.~Cell();
+    c2.~Cell();
+    c3.~Cell();
+
+    Perl->destroy();*/
+
+    Cycle* cyc = new Cycle();
+    cyc->~Cycle();
+    return 0;
+}

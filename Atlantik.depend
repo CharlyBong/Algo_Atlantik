@@ -1,0 +1,350 @@
+# depslib dependency file v1.0
+1421067936 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\cell.cpp
+	"Cell.h"
+
+1421067929 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\cell.h
+	<string>
+	<string>
+
+1421067638 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\harbor.cpp
+	"Harbor.h"
+
+1421068201 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\harbor.h
+	<string>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<random>
+	"Cell.h"
+	"Dock.h"
+	"Ship.h"
+
+1421067327 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\ship.h
+	<iostream>
+	<string>
+	<sstream>
+	"Engine.h"
+	"Hull.h"
+	"StealthPartsFactory.h"
+	"KestrelPartsFactory.h"
+	"Visitor.h"
+	"random"
+
+1419862256 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\ship.cpp
+	"Ship.h"
+	"KestrelEngine.h"
+	"KestrelHull.h"
+
+1421068115 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\main.cpp
+	<iostream>
+	"Ship.h"
+	"Harbor.h"
+	"Cycle.h"
+
+1421067732 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\dock.cpp
+	"Dock.h"
+
+1421067719 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\dock.h
+	"Ship.h"
+
+1421067919 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\cycle.cpp
+	<windows.h>
+	"Cycle.h"
+
+1421067873 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\cycle.h
+	<random>
+	<ctime>
+	<list>
+	"Ship.h"
+	"PassengerShip.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+	"PleasureCraft.h"
+	"Cell.h"
+	"Harbor.h"
+	"Bateau.h"
+
+1417083666 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\bateau.cpp
+
+1421067955 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\bateau.h
+	"Ship.h"
+	"Cell.h"
+
+1416132247 source:d:\cours\c++\atlantik\cell.cpp
+	"Cell.h"
+
+1416559258 d:\cours\c++\atlantik\cell.h
+	<string>
+
+1419871900 source:d:\cours\c++\atlantik\cycle.cpp
+	<windows.h>
+	"Cycle.h"
+
+1418909964 d:\cours\c++\atlantik\cycle.h
+	<random>
+	<ctime>
+	<list>
+	"Ship.h"
+	"PassengerShip.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+	"PleasureCraft.h"
+	"Cell.h"
+	"Harbor.h"
+	"Bateau.h"
+
+1419871115 d:\cours\c++\atlantik\ship.h
+	<iostream>
+	<string>
+	<sstream>
+	"Engine.h"
+	"Hull.h"
+	"StealthPartsFactory.h"
+	"KestrelPartsFactory.h"
+	"Visitor.h"
+	"random"
+
+1418484413 d:\cours\c++\atlantik\harbor.h
+	<string>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<random>
+	"Cell.h"
+	"Dock.h"
+	"Ship.h"
+
+1418485438 d:\cours\c++\atlantik\dock.h
+	"Ship.h"
+
+1417085504 d:\cours\c++\atlantik\bateau.h
+	"Ship.h"
+	"Cell.h"
+
+1418907349 source:d:\cours\c++\atlantik\dock.cpp
+	"Dock.h"
+
+1418906667 source:d:\cours\c++\atlantik\harbor.cpp
+	"Harbor.h"
+
+1417678070 source:d:\cours\c++\atlantik\main.cpp
+	<iostream>
+	"Ship.h"
+	"Harbor.h"
+	"Cycle.h"
+
+1419862256 source:d:\cours\c++\atlantik\ship.cpp
+	"Ship.h"
+	"KestrelEngine.h"
+	"KestrelHull.h"
+
+1418915713 source:d:\cours\c++\atlantik\engine.cpp
+	<iostream>
+	<sstream>
+	"Engine.h"
+
+1418916840 d:\cours\c++\atlantik\engine.h
+	<cassert>
+
+1418915992 source:d:\cours\c++\atlantik\hull.cpp
+	<iostream>
+	<sstream>
+	"Hull.h"
+
+1418916866 d:\cours\c++\atlantik\hull.h
+	<cassert>
+
+1417677276 source:d:\cours\c++\atlantik\kestrelengine.cpp
+	"KestrelEngine.h"
+
+1418917246 d:\cours\c++\atlantik\kestrelengine.h
+	"Engine.h"
+
+1417677231 source:d:\cours\c++\atlantik\kestrelhull.cpp
+	"KestrelHull.h"
+
+1418917258 d:\cours\c++\atlantik\kestrelhull.h
+	"Hull.h"
+
+1418912006 source:d:\cours\c++\atlantik\kestrelpartsfactory.cpp
+	"KestrelPartsFactory.h"
+	"KestrelEngine.h"
+	"KestrelHull.h"
+
+1418911940 d:\cours\c++\atlantik\kestrelpartsfactory.h
+	"ShipPartsFactory.h"
+
+1418836504 d:\cours\c++\atlantik\shippartsfactory.h
+
+1418836504 source:d:\cours\c++\atlantik\shippartsfactory.cpp
+	<iostream>
+	<sstream>
+	"ShipPartsFactory.h"
+
+1417677262 source:d:\cours\c++\atlantik\stealthengine.cpp
+	"StealthEngine.h"
+
+1418917264 d:\cours\c++\atlantik\stealthengine.h
+	"Engine.h"
+
+1417677210 source:d:\cours\c++\atlantik\stealthhull.cpp
+	"StealthHull.h"
+
+1418917266 d:\cours\c++\atlantik\stealthhull.h
+	"Hull.h"
+
+1418833612 source:d:\cours\c++\atlantik\stealthpartsfactory.cpp
+	"StealthPartsFactory.h"
+	"StealthEngine.h"
+	"StealthHull.h"
+
+1418833537 d:\cours\c++\atlantik\stealthpartsfactory.h
+	"ShipPartsFactory.h"
+
+1419871552 d:\cours\c++\atlantik\passengership.h
+	"Ship.h"
+
+1419871470 source:d:\cours\c++\atlantik\fishingboat.cpp
+	"FishingBoat.h"
+
+1419871558 d:\cours\c++\atlantik\fishingboat.h
+	"Ship.h"
+
+1419871491 source:d:\cours\c++\atlantik\militaryship.cpp
+	"MilitaryShip.h"
+	"random"
+
+1419871563 d:\cours\c++\atlantik\militaryship.h
+	"Ship.h"
+
+1419871501 source:d:\cours\c++\atlantik\passengership.cpp
+	"PassengerShip.h"
+	"random"
+
+1419871509 source:d:\cours\c++\atlantik\pleasurecraft.cpp
+	"PleasureCraft.h"
+	"random"
+
+1419871567 d:\cours\c++\atlantik\pleasurecraft.h
+	"Ship.h"
+
+1419871281 d:\cours\c++\atlantik\visitor.h
+
+1419871340 source:d:\cours\c++\atlantik\visitor.cpp
+	"Visitor.h"
+	"PassengerShip.h"
+	"PleasureCraft.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+
+1421067699 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\engine.h
+	<cassert>
+
+1421067509 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\hull.h
+	<cassert>
+
+1421067214 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthpartsfactory.h
+	"ShipPartsFactory.h"
+
+1421067283 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\shippartsfactory.h
+
+1421067487 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelpartsfactory.h
+	"ShipPartsFactory.h"
+
+1419871281 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\visitor.h
+
+1421067444 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\passengership.h
+	"Ship.h"
+
+1421067454 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\militaryship.h
+	"Ship.h"
+
+1421067648 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\fishingboat.h
+	"Ship.h"
+
+1421067425 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\pleasurecraft.h
+	"Ship.h"
+
+1418915713 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\engine.cpp
+	<iostream>
+	<sstream>
+	"Engine.h"
+
+1419871470 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\fishingboat.cpp
+	"FishingBoat.h"
+
+1418915992 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\hull.cpp
+	<iostream>
+	<sstream>
+	"Hull.h"
+
+1417677276 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelengine.cpp
+	"KestrelEngine.h"
+
+1421067500 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelengine.h
+	"Engine.h"
+
+1417677231 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelhull.cpp
+	"KestrelHull.h"
+
+1421067495 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelhull.h
+	"Hull.h"
+
+1418912006 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\kestrelpartsfactory.cpp
+	"KestrelPartsFactory.h"
+	"KestrelEngine.h"
+	"KestrelHull.h"
+
+1419871491 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\militaryship.cpp
+	"MilitaryShip.h"
+	"random"
+
+1419871501 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\passengership.cpp
+	"PassengerShip.h"
+	"random"
+
+1419871509 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\pleasurecraft.cpp
+	"PleasureCraft.h"
+	"random"
+
+1418836504 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\shippartsfactory.cpp
+	<iostream>
+	<sstream>
+	"ShipPartsFactory.h"
+
+1417677262 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthengine.cpp
+	"StealthEngine.h"
+
+1421067273 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthengine.h
+	"Engine.h"
+
+1417677210 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthhull.cpp
+	"StealthHull.h"
+
+1421067264 c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthhull.h
+	"Hull.h"
+
+1418833612 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\stealthpartsfactory.cpp
+	"StealthPartsFactory.h"
+	"StealthEngine.h"
+	"StealthHull.h"
+
+1419871340 source:c:\users\cbongiorno\documents\mes documents\m1\misn\atlantik\visitor.cpp
+	"Visitor.h"
+	"PassengerShip.h"
+	"PleasureCraft.h"
+	"MilitaryShip.h"
+	"FishingBoat.h"
+

@@ -1,0 +1,4 @@
+<map id="Harbor::resaDock" name="Harbor::resaDock">
+<area shape="rect" id="node2" href="$class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="176,5,299,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#ae0372567dec019c3a9c0eed976606e5b" title="Ship::accept" alt="" coords="347,5,441,32"/>
+</map>

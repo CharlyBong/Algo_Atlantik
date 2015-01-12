@@ -1,0 +1,16 @@
+#ifndef H_STEALTHPARTSFACTORY
+#define H_STEALTHPARTSFACTORY
+
+#include "ShipPartsFactory.h"
+
+class StealthPartsFactory : public ShipPartsFactory
+{
+public:
+    StealthPartsFactory();
+    Hull* createHull();
+    Engine* createEngine();
+
+};
+
+#endif // H_STEALTHPARTSFACTORY
+

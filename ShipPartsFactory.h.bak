@@ -1,0 +1,16 @@
+#ifndef H_SHIPPARTSFACTORY
+#define H_SHIPPARTSFACTORY
+
+class Hull;
+class Engine;
+
+class ShipPartsFactory
+{
+public:
+    ShipPartsFactory();
+    virtual ~ShipPartsFactory();
+    virtual Hull* createHull() = 0;
+    virtual Engine* createEngine() = 0;
+};
+
+#endif // H_SHIPPARTSFACTORY

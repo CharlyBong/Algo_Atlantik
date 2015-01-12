@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Atlantik" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Atlantik" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-std=c++11" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Atlantik" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bateau.h" />
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="Cycle.cpp" />
+		<Unit filename="Cycle.h" />
+		<Unit filename="Dock.cpp" />
+		<Unit filename="Dock.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="FishingBoat.cpp" />
+		<Unit filename="FishingBoat.h" />
+		<Unit filename="Harbor.cpp" />
+		<Unit filename="Harbor.h" />
+		<Unit filename="Hull.cpp" />
+		<Unit filename="Hull.h" />
+		<Unit filename="KestrelEngine.cpp" />
+		<Unit filename="KestrelEngine.h" />
+		<Unit filename="KestrelHull.cpp" />
+		<Unit filename="KestrelHull.h" />
+		<Unit filename="KestrelPartsFactory.cpp" />
+		<Unit filename="KestrelPartsFactory.h" />
+		<Unit filename="MilitaryShip.cpp" />
+		<Unit filename="MilitaryShip.h" />
+		<Unit filename="PassengerShip.cpp" />
+		<Unit filename="PassengerShip.h" />
+		<Unit filename="PleasureCraft.cpp" />
+		<Unit filename="PleasureCraft.h" />
+		<Unit filename="Ship.cpp" />
+		<Unit filename="Ship.h" />
+		<Unit filename="ShipPartsFactory.cpp" />
+		<Unit filename="ShipPartsFactory.h" />
+		<Unit filename="StealthEngine.cpp" />
+		<Unit filename="StealthEngine.h" />
+		<Unit filename="StealthHull.cpp" />
+		<Unit filename="StealthHull.h" />
+		<Unit filename="StealthPartsFactory.cpp" />
+		<Unit filename="StealthPartsFactory.h" />
+		<Unit filename="Visitor.cpp" />
+		<Unit filename="Visitor.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

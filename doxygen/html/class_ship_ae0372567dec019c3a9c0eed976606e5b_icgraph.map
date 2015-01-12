@@ -1,0 +1,5 @@
+<map id="Ship::accept" name="Ship::accept">
+<area shape="rect" id="node2" href="$class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="148,31,271,57"/>
+<area shape="rect" id="node3" href="$class_harbor.html#a3758bc0fac1975a64b00a9d2194a91e4" title="Réservation d&#39;un quai : Permet de réserver un quai pour un Ship. " alt="" coords="328,5,451,32"/>
+<area shape="rect" id="node4" href="$class_harbor.html#a8bc3552dfadc36e53f09f280915be000" title="Réservation d&#39;un quai pour un bateau : réserve un quai pour un bateau, s&#39;il n&#39;y a pas de place..." alt="" coords="319,56,460,83"/>
+</map>

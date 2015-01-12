@@ -1,0 +1,21 @@
+<map id="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/StealthPartsFactory.h" name="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/StealthPartsFactory.h">
+<area shape="rect" id="node2" href="$_ship_8h.html" title="Déclaration de la classe Ship. " alt="" coords="846,131,1036,187"/>
+<area shape="rect" id="node20" href="$_stealth_parts_factory_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/StealthParts\lFactory.cpp" alt="" coords="1060,124,1264,195"/>
+<area shape="rect" id="node3" href="$_bateau_8h.html" title="Déclaration de la classe Bateau. " alt="" coords="28,347,219,403"/>
+<area shape="rect" id="node4" href="$_cycle_8h.html" title="Déclaration de la classe Cycle. " alt="" coords="162,451,352,507"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Fichier principal du programme Fichier de départ du programme. " alt="" coords="496,555,687,611"/>
+<area shape="rect" id="node7" href="$_passenger_ship_8h.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/PassengerShip.h" alt="" coords="302,243,532,299"/>
+<area shape="rect" id="node9" href="$_dock_8h.html" title="Déclaration de la classe Dock. " alt="" coords="779,243,970,299"/>
+<area shape="rect" id="node10" href="$_harbor_8h.html" title="Déclaration de la classe Harbor. " alt="" coords="564,347,755,403"/>
+<area shape="rect" id="node13" href="$_fishing_boat_8h.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/FishingBoat.h" alt="" coords="1046,243,1258,299"/>
+<area shape="rect" id="node15" href="$_military_ship_8h.html" title="Déclaration de la classe MilitaryShip. " alt="" coords="1282,243,1493,299"/>
+<area shape="rect" id="node17" href="$_pleasure_craft_8h.html" title="Déclaration de la classe PleasureCraft. " alt="" coords="1517,243,1738,299"/>
+<area shape="rect" id="node19" href="$_ship_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/Ship.cpp" alt="" coords="1763,243,1954,299"/>
+<area shape="rect" id="node5" href="$_cycle_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="162,555,352,611"/>
+<area shape="rect" id="node8" href="$_passenger_ship_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/PassengerShip.cpp" alt="" coords="294,347,540,403"/>
+<area shape="rect" id="node12" href="$_dock_8cpp.html" title="Classe Dock : Quai du port Implémentation des fonctions liées à la classe Dock. " alt="" coords="779,347,970,403"/>
+<area shape="rect" id="node11" href="$_harbor_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="629,451,824,507"/>
+<area shape="rect" id="node14" href="$_fishing_boat_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/FishingBoat.cpp" alt="" coords="1045,347,1272,403"/>
+<area shape="rect" id="node16" href="$_military_ship_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/MilitaryShip.cpp" alt="" coords="1296,347,1522,403"/>
+<area shape="rect" id="node18" href="$_pleasure_craft_8cpp.html" title="C:/Users/cbongiorno\l/Documents/Mes Documents\l/M1/MISN/Atlantik/PleasureCraft.cpp" alt="" coords="1546,347,1781,403"/>
+</map>

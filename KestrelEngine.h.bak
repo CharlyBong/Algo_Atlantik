@@ -1,0 +1,16 @@
+#ifndef H_KESTRELENGINE
+#define H_KESTRELENGINE
+
+#include "Engine.h"
+
+class KestrelEngine:public Engine
+{
+public:
+    KestrelEngine();
+    inline ~KestrelEngine() {};
+    inline int getSpeed() const { return _Speed; }
+
+};
+
+#endif // H_KESTRELENGINE
+

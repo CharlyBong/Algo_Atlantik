@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_ship_parts_factory.html" title="Catalogue de classe Ship. " alt="" coords="5,31,128,57"/>
+<area shape="rect" id="node2" href="$class_kestrel_parts_factory.html" title="Catalogue de classe Kestrel. " alt="" coords="176,5,315,32"/>
+<area shape="rect" id="node3" href="$class_stealth_parts_factory.html" title="Catalogue de classe Stealth. " alt="" coords="176,56,315,83"/>
+</map>

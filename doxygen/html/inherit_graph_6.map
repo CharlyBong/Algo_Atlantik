@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_hull.html" title="Coque d&#39;un Ship. " alt="" coords="5,31,49,57"/>
+<area shape="rect" id="node2" href="$class_kestrel_hull.html" title="Hull de type Kestrel. " alt="" coords="97,5,183,32"/>
+<area shape="rect" id="node3" href="$class_stealth_hull.html" title="Hull de type Stealth. " alt="" coords="97,56,183,83"/>
+</map>
