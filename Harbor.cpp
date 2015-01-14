@@ -23,7 +23,12 @@ Harbor::Harbor(int x, int y)
 {
     _maxx = x;
     _maxy = y;
-    srand(time(NULL));
+    //srand(time(NULL));
+    srand(time(0));
+
+    ecrire(FILE,"");
+    ecrire(FILE," ----- INITIALISATION ----- ");
+    ecrire(FILE,"");
 
     vector<int> listdock(2*_maxy) ;
     iota(listdock.begin(),listdock.end(),1);
@@ -77,7 +82,7 @@ Cell Harbor::addShip(Ship* bateau){
     for (list<Cell>::iterator it = posinit.begin(); it != posinit.end(); it++ ){
         if(addShip(bateau,*it)==0) return *it;
     }
-    ecrire(FILE,"ERR ADD : "+bateau->getNom());
+    ecrire(FILE,"NO PLACE : "+bateau->getNom());
     return Cell(-1,-1);
 }
 
@@ -149,7 +154,7 @@ Cell Harbor::MoveTo(int x1, int y1, int x2, int y2)
     {
         stringstream ss;
         ss << " ("<<x1<<","<<y1<<") to ("<<x2<<","<<y2<<") ";
-        ecrire(FILE,"COLI : "+ss.str()+_grid[Cell(x1,y1)]->getNom() + " -> "+ _grid[Cell(x2,y2)]->getNom());
+        ecrire(FILE,"COLLISSION : "+ss.str()+_grid[Cell(x1,y1)]->getNom() + " -> "+ _grid[Cell(x2,y2)]->getNom());
         if( collision(_grid[Cell(x1,y1)],_grid[Cell(x2,y2)]) == 1)
             _grid[Cell(x2,y2)] = NULL;
     }
@@ -175,7 +180,7 @@ Cell Harbor::MoveTo(int x1, int y1, int x2, int y2)
  */
 void Harbor::Delete(int x, int y)
 {
-    ecrire(FILE,"BYE : "+_grid[Cell(x,y)]->getNom());
+    ecrire(FILE,"DEL : "+_grid[Cell(x,y)]->getNom());
     _grid[Cell(x,y)] = NULL;
 }
 
@@ -336,7 +341,7 @@ void Harbor::ecrire(string file,string text){
         struct tm  tstruct = *localtime(&t);
         char       temp[80];
         strftime(temp, sizeof(temp), "%X", &tstruct);
-        fichier << "TIME : " << temp << endl;
+        fichier << "(" << temp << ") - ";
         fichier << text << endl;
         fichier.close();
     }
@@ -354,7 +359,8 @@ int Harbor::collision(Ship* s1, Ship* s2){
     if(s1->getHullSolidity() > s2->getHullSolidity()){
         // S1 > S2 -> destruction de S2
         ecrire(FILE,"KILL : "+s1->getNom() + " -> "+ s2->getNom());
-        s2->~Ship();
+        Visitor* v = new Visitor();
+        s2->accept(v); // s2->~Ship();
         return 1;
     }
     // else Don't MOVE !

@@ -15,7 +15,8 @@ using namespace std;
  * \author Charles Bong.
  */
 Cycle::Cycle(){
-    srand(time(NULL));
+    //srand(time(NULL));
+    srand(time(0));
     _perl = Harbor::getInstance();
     for(int i=0; i<15;i++){
         listattente();
