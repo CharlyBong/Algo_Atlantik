@@ -2,4 +2,6 @@
 *.o
 *.exe
 *.bak
+Atlantik.depend
+Atlantik.layout
 traffic.txt
