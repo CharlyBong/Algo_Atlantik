@@ -21,7 +21,7 @@ public:
     MilitaryShip(string nom, StealthPartsFactory *SPF);
     MilitaryShip(string nom, KestrelPartsFactory *SPF);
     int   type = 2;
-    ~MilitaryShip() {};
+    ~MilitaryShip();
     void accept(Visitor* v);
     bool accept(int dockId);
     inline bool isMoveOK() { return ( (rand()%100) > (_fp*100) ); }

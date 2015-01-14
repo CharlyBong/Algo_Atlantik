@@ -9,6 +9,7 @@ FishingBoat::FishingBoat(string nom, StealthPartsFactory *SPF)
     _fp = rand()%100;
     while ( (_fp<=9) && (_fp>=99) )
         _fp = rand()%100;
+    delete SPF;
 }
 
 FishingBoat::FishingBoat(string nom, KestrelPartsFactory *SPF)
@@ -20,6 +21,12 @@ FishingBoat::FishingBoat(string nom, KestrelPartsFactory *SPF)
     _fp = rand()%100;
     while ( (_fp<=9) && (_fp>=99) )
         _fp = rand()%100;
+    delete SPF;
+}
+
+FishingBoat::~FishingBoat(){
+    delete _hull;
+    delete _engine;
 }
 
 bool FishingBoat::accept(int dockId)

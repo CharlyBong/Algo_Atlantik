@@ -7,20 +7,20 @@
 
 void Visitor::display(PassengerShip* a)
 {
-	a->~PassengerShip();
+	delete a;
 }
 
 void Visitor::display(PleasureCraft* b)
 {
-	b->~PleasureCraft();
+	delete b;
 }
 
-void Visitor::display(MilitaryShip* b)
+void Visitor::display(MilitaryShip* c)
 {
-	b->~MilitaryShip();
+	delete c;
 }
 
-void Visitor::display(FishingBoat* b)
+void Visitor::display(FishingBoat* d)
 {
-	b->~FishingBoat();
+	delete d;
 }

@@ -22,7 +22,7 @@ public:
     FishingBoat(string nom, StealthPartsFactory *SPF);
     FishingBoat(string nom, KestrelPartsFactory *SPF);
     int   type = 1;
-    ~FishingBoat() {};
+    ~FishingBoat();
     void accept(Visitor* v);
     bool accept(int dockId);//impaire
     inline bool isMoveOK() { return ( (rand()%100) > (_fp) ); }

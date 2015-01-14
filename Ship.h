@@ -30,7 +30,7 @@ using namespace std;
  */
 
 class Ship{
-private:
+protected:
     string _nom;
     Engine* _engine;
     Hull* _hull;

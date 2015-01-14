@@ -21,7 +21,7 @@ public:
     PleasureCraft(string nom, StealthPartsFactory *SPF);
     PleasureCraft(string nom, KestrelPartsFactory *SPF);
     int   type = 3;
-    ~PleasureCraft() {};
+    ~PleasureCraft();
     void accept(Visitor* v);
     bool accept(int dockId);
     inline bool isMoveOK() { return ( (rand()%100) > (_fp*100) ); }

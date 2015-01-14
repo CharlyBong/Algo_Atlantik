@@ -6,6 +6,7 @@ MilitaryShip::MilitaryShip(string nom, StealthPartsFactory *SPF)
     this->setNom(nom);
     this->setHull(SPF->createHull());
     this->setEngine(SPF->createEngine());
+    delete SPF;
 }
 
 MilitaryShip::MilitaryShip(string nom, KestrelPartsFactory *SPF)
@@ -13,6 +14,12 @@ MilitaryShip::MilitaryShip(string nom, KestrelPartsFactory *SPF)
     this->setNom(nom);
     this->setHull(SPF->createHull());
     this->setEngine(SPF->createEngine());
+    delete SPF;
+}
+
+MilitaryShip::~MilitaryShip(){
+    delete _hull;
+    delete _engine;
 }
 
 bool MilitaryShip::accept(int dockId)

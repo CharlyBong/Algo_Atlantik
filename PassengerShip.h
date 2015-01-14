@@ -21,7 +21,7 @@ public:
     PassengerShip(string nom, StealthPartsFactory *SPF);
     PassengerShip(string nom, KestrelPartsFactory *SPF);
     int   type = 0;
-    ~PassengerShip() {};
+    ~PassengerShip();
     void accept(Visitor* v);
     bool accept(int dockId);
     inline bool isMoveOK() { return ( (rand()%100) > (_fp*100) ); }

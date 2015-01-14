@@ -32,8 +32,8 @@ Ship::Ship(string nom, KestrelPartsFactory *KPF)
 
 Ship::~Ship()
 {
-    delete _engine;
-    delete _hull;
+    /*delete _engine;
+    delete _hull;*/
 }
 
 void Ship::SetNom(string nom){
