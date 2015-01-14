@@ -29,6 +29,9 @@ public:
     float failureProbability();
     inline int getPriority() {return 4;}
 
+    inline char getIcon() {return '#';}
+    inline int getColor() {return 14;}
+
 private:
     float _fp;
 };

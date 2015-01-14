@@ -46,7 +46,7 @@ Cycle::~Cycle(){
  * \author Charles Bong.
  */
 void Cycle::createShip(){
-    cout << "Create ship";
+    //cout << "Create ship";
     Visitor* v = new Visitor();
     int testParts = rand()%100;
     int testTypes = rand()%100;
@@ -62,20 +62,20 @@ void Cycle::createShip(){
 
     Cell ptinit = _perl->addShip(sh);
     if(ptinit!=Cell(-1,-1)){
-        cout << "\t" << ptinit._x << " - " << ptinit._y;
+        //cout << "\t" << ptinit._x << " - " << ptinit._y;
         Cell resa = _perl->getresaDock(sh);
         if(resa != Cell(-1,-1)){
-            cout << "\t" << resa._x << " - " << resa._y <<endl;
+            //cout << "\t" << resa._x << " - " << resa._y <<endl;
             listbat.push_back(new Bateau(sh,ptinit,resa));
         }
         else{
-            cout << "\t plus de quai disponible -> del" <<endl;
+            //cout << "\t plus de quai disponible -> del" <<endl;
             _perl->Delete(ptinit._x,ptinit._y);
             sh->accept(v);                               //sh->~Ship()<--------------------------------------------------------
         }
     }
     else{
-        cout << "\t -> file d'attente" <<endl;
+        //cout << "\t -> file d'attente" <<endl;
         listatt.push_back(sh);
     }
 }
@@ -108,6 +108,10 @@ Cell Cycle::moves(Bateau* ship){
     return ship->posi;
 }
 
+/** \brief Avancement d'un certain nombre de case
+ * \param ship Bateau* : Bateau à déplacer
+ * \author Charles Bong.
+ */
 void Cycle::movesship(Bateau* ship){
     if( ship->sh->isMoveOK() ){ // Est-ce que le bateau bouge (voir failureProbability)
         int nbmove = ship->sh->getSpeed();
@@ -117,35 +121,45 @@ void Cycle::movesship(Bateau* ship){
     }
 }
 
+/** \brief Bouge tous les bateaux du terrain
+ * \author Charles Bong.
+ */
 void Cycle::listmoveships(){
     for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ ){
         movesship(*it);
     }
 }
 
+/** \brief Gestion de la liste d'attente
+ * Merci à Julien pour l'idée d'afficher la liste d'attente
+ * \author Charles Bong.
+ */
 void Cycle::listattente(){
     list<Ship*>::iterator it = listatt.begin();
     list<Ship*>::iterator iat = listatt.end();
+    cout << "[";
     if(it!=iat){
-        cout << "list att ship";
+        //cout << "list att ship";
         Cell ptinit = _perl->addShip(*it);
         if(ptinit!=Cell(-1,-1)){
-            cout << "\t" << ptinit._x << " - " << ptinit._y;
+            //cout << "\t" << ptinit._x << " - " << ptinit._y;
             Cell resa = _perl->getresaDock(*it);
             if(resa != Cell(-1,-1)){
-                cout << "\t" << resa._x << " - " << resa._y <<endl;
+                //cout << "\t" << resa._x << " - " << resa._y <<endl;
                 listbat.push_back(new Bateau(*it,ptinit,resa));
                 listatt.pop_front();
             }
             else{
                 Visitor* v = new Visitor();
-                cout << "\t no place -> del" <<endl;
+                //cout << "\t no place -> del" <<endl; // Plus de place disponible
                 _perl->Delete(ptinit._x,ptinit._y);
                 (*it)->accept(v);
                 listatt.pop_front();
             }
         }
-        else
-            cout << "\t pas encore" <<endl;
+        //else cout << "\t pas encore" <<endl; // l'entré du port est occupé
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (*it)->getColor() );
+        cout << (*it)->getIcon();
     }
+    cout << "]" << endl;
 }

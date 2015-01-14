@@ -49,7 +49,7 @@ private:
 
     void ecrire(string file, string text);
     int collision(Ship*s1, Ship* s2);
-    Harbor(int x = 10, int y = 10);
+    Harbor(int x = 20, int y = 20);
     ~Harbor();
     int verifcase(int x, int y);
 public:

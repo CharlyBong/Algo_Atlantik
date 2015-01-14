@@ -200,19 +200,31 @@ int Harbor::getDockaleat(int maxi)
 }
 
 /** \brief Affichage du port
+ * Merci à Julien pour l'idée des couleurs
  * \author Charles Bong.
  */
 void Harbor::print()
 {
+    int color;
     for(int i=0;i<_maxx;i++)
     {
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
         cout << _dock[Cell(i,0)]->_id << "\t|->";
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
+
         for(int j=0;j<_maxy;j++)
         {
             if(_grid[Cell(i,j)] == NULL) cout << "~";
-                else cout << "O";
+            else {
+               color = _grid[Cell(i,j)]->getColor() + 48;
+               SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+               cout << _grid[Cell(i,j)]->getIcon();
+               SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
+            }
         }
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
         cout << "<-|\t" << _dock[Cell(i,_maxy-1)]->_id << endl;
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
     }
 }
 

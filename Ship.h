@@ -11,6 +11,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <windows.h>
 #include "Engine.h"
 #include "Hull.h"
 #include "StealthPartsFactory.h"
@@ -35,7 +36,7 @@ private:
     Hull* _hull;
 public:
     Ship();
-    ~Ship();
+    virtual ~Ship();
     virtual void accept(Visitor* v) = 0;
     Ship(string nom, Engine* e, Hull* h);
     Ship(string nom, StealthPartsFactory *SPF);
@@ -58,6 +59,9 @@ public:
     virtual float failureProbability() = 0;
     virtual bool accept(int dockId)    = 0;
     virtual int getPriority()          = 0;
+
+    virtual char getIcon()             = 0;
+    virtual int getColor()             = 0;
 
     Ship& operator=(const Ship& p);
 };
