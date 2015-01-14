@@ -7,7 +7,7 @@
 
 #include "Harbor.h"
 
-#define FILE "trafic.txt"
+#define FILE "traffic.txt"
 using namespace std;
 
 Harbor* Harbor::_uniqueInstance = NULL;
