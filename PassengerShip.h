@@ -29,7 +29,7 @@ public:
     inline int getPriority() {return 7;}
 
     inline char getIcon() {return '@';}
-    inline int getColor() {return 4;}
+    inline int getColor() {return 12;}
 
 private:
     float  _fp = 0.2;

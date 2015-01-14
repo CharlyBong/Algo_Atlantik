@@ -7,6 +7,7 @@
 
 #include "Harbor.h"
 
+#define COLOR TRUE
 #define FILE "traffic.txt"
 using namespace std;
 
@@ -23,8 +24,8 @@ Harbor::Harbor(int x, int y)
 {
     _maxx = x;
     _maxy = y;
-    //srand(time(NULL));
-    srand(time(0));
+    srand(time(NULL));
+    //srand(time(0));
 
     ecrire(FILE,"");
     ecrire(FILE," ----- INITIALISATION ----- ");
@@ -208,23 +209,23 @@ void Harbor::print()
     int color;
     for(int i=0;i<_maxx;i++)
     {
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
+        if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
         cout << _dock[Cell(i,0)]->_id << "\t|->";
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
+        if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
 
         for(int j=0;j<_maxy;j++)
         {
             if(_grid[Cell(i,j)] == NULL) cout << "~";
             else {
                color = _grid[Cell(i,j)]->getColor() + 48;
-               SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+               if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
                cout << _grid[Cell(i,j)]->getIcon();
-               SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
+               if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 59);
             }
         }
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
+        if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8);
         cout << "<-|\t" << _dock[Cell(i,_maxy-1)]->_id << endl;
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+        if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
     }
 }
 

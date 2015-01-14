@@ -8,6 +8,7 @@
 #include <windows.h>
 #include "Cycle.h"
 #define PG 0.9
+#define COLOR TRUE
 
 using namespace std;
 
@@ -15,8 +16,8 @@ using namespace std;
  * \author Charles Bong.
  */
 Cycle::Cycle(){
-    //srand(time(NULL));
-    srand(time(0));
+    srand(time(NULL));
+    //srand(time(0));
     _perl = Harbor::getInstance();
     for(int i=0; i<15;i++){
         listattente();
@@ -137,11 +138,11 @@ void Cycle::listmoveships(){
 void Cycle::listattente(){
     list<Ship*>::iterator it = listatt.begin();
     list<Ship*>::iterator iat = listatt.end();
-    cout << "[";
+    cout << "list att :[";
     if(it!=iat){
         //cout << "list att ship";
         Cell ptinit = _perl->addShip(*it);
-        if(ptinit!=Cell(-1,-1)){
+        if(ptinit!=Cell(-1,-1)){ // Je peux rentrer dans le port (entrée libre)
             //cout << "\t" << ptinit._x << " - " << ptinit._y;
             Cell resa = _perl->getresaDock(*it);
             if(resa != Cell(-1,-1)){
@@ -157,9 +158,12 @@ void Cycle::listattente(){
                 listatt.pop_front();
             }
         }
-        //else cout << "\t pas encore" <<endl; // l'entré du port est occupé
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (*it)->getColor() );
-        cout << (*it)->getIcon();
+        else{
+            if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (*it)->getColor() );
+            cout << (*it)->getIcon();
+        } //cout << "\t pas encore" << endl; // l'entré du port est occupé
+
     }
+    if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7 );
     cout << "]" << endl;
 }
