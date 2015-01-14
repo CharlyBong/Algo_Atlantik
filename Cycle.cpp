@@ -6,6 +6,7 @@
  */
 
 #include <windows.h>
+#include <exception>
 #include "Cycle.h"
 #define PG 0.9
 #define COLOR TRUE
@@ -19,7 +20,7 @@ Cycle::Cycle(){
     srand(time(NULL));
     //srand(time(0));
     _perl = Harbor::getInstance();
-    for(int i=0; i<15;i++){
+    for(int i=0; i<200;i++){
         listattente();
         if(proba()) createShip();
         if(proba()) createShip();
@@ -27,7 +28,7 @@ Cycle::Cycle(){
         if(proba()) createShip();
         listmoveships();
         _perl->print();
-        Sleep(1000);
+        //Sleep(1000);
         cout << endl;
     }
 }
@@ -127,7 +128,13 @@ void Cycle::movesship(Bateau* ship){
  */
 void Cycle::listmoveships(){
     for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ ){
-        movesship(*it);
+            if(!(*it)->sh->iamdead)
+                movesship(*it);
+            else{
+                delete (*it);
+                listbat.remove(*it);
+                *it = NULL;
+            }
     }
 }
 

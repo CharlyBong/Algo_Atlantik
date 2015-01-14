@@ -52,6 +52,9 @@ Harbor::Harbor(int x, int y)
  * \author Charles Bong.
  */
 Harbor::~Harbor(){
+    ecrire(FILE,"");
+    ecrire(FILE," ---------- END ----------- ");
+    ecrire(FILE,"");
 }
 
 /** \brief Récupérateur d'instance
@@ -372,8 +375,9 @@ int Harbor::collision(Ship* s1, Ship* s2){
     if(s1->getHullSolidity() > s2->getHullSolidity()){
         // S1 > S2 -> destruction de S2
         ecrire(FILE,"KILL : "+s1->getNom() + " -> "+ s2->getNom());
-        Visitor* v = new Visitor();
-        s2->accept(v); // s2->~Ship();
+        //Visitor* v = new Visitor();
+        //s2->accept(v); // s2->~Ship();
+        s2->iamdead = true;  // c'est très moche !
         return 1;
     }
     // else Don't MOVE !

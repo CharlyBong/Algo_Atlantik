@@ -46,6 +46,7 @@ public:
     string getNom() const;
     void SetNom(string nom);
     int type = -1;
+    bool iamdead = false;
     inline int getHullSolidity() const {return _hull->getSolidity();}
     inline int getSpeed() const { return _engine->getSpeed(); }
     inline void setNom(string n) { _nom = n; }

@@ -33,7 +33,10 @@ public:
         posi = positioninit;
         desti = quaiarrive;
     };
-    ~Bateau();
+    ~Bateau() {
+        Visitor* v = new Visitor();
+        sh->accept(v);
+    };
 
 };
 
