@@ -140,8 +140,8 @@ void Cycle::listattente(){
                 Visitor* v = new Visitor();
                 cout << "\t no place -> del" <<endl;
                 _perl->Delete(ptinit._x,ptinit._y);
-                listatt.pop_front();
                 (*it)->accept(v);
+                listatt.pop_front();
             }
         }
         else
