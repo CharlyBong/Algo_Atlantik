@@ -35,8 +35,8 @@ class Ship;
 class Cycle{
 private:
     Harbor* _perl;
-    list<Bateau*> listbat;
-    list<Ship*> listatt;
+    list<Bateau*> listBat;
+    list<Ship*> listAtt;
 
     void createShip();
     bool proba();

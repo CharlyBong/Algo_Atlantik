@@ -43,7 +43,7 @@ int Dock::surreservation(Ship* bateau){
     }
     if( _bateau->getPriority() < bateau->getPriority() ){
         Visitor* v = new Visitor();
-        _bateau->accept(v); // _bateau->~Ship();
+        _bateau->accept(v);
         _bateau = NULL;
         return this->reservation(bateau);
     }

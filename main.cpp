@@ -15,7 +15,6 @@ using namespace std;
 int main()
 {
     Cycle* cyc = new Cycle();
-    //cyc->~Cycle();
     delete cyc;
     return 0;
 }

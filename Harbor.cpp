@@ -376,7 +376,7 @@ int Harbor::collision(Ship* s1, Ship* s2){
         // S1 > S2 -> destruction de S2
         ecrire(FILE,"KILL : "+s1->getNom() + " -> "+ s2->getNom());
         //Visitor* v = new Visitor();
-        //s2->accept(v); // s2->~Ship();
+        //s2->accept(v);
         s2->iamdead = true;  // c'est très moche !
         return 1;
     }

@@ -37,7 +37,7 @@ Cycle::Cycle(){
  * \author Charles Bong.
  */
 Cycle::~Cycle(){
-    for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ ){
+    for (list<Bateau*>::iterator it = listBat.begin(); it != listBat.end(); it++ ){
         Visitor* v = new Visitor();
         (*it)->sh->accept(v);
     }
@@ -48,7 +48,6 @@ Cycle::~Cycle(){
  * \author Charles Bong.
  */
 void Cycle::createShip(){
-    //cout << "Create ship";
     Visitor* v = new Visitor();
     int testParts = rand()%100;
     int testTypes = rand()%100;
@@ -68,17 +67,20 @@ void Cycle::createShip(){
         Cell resa = _perl->getresaDock(sh);
         if(resa != Cell(-1,-1)){
             //cout << "\t" << resa._x << " - " << resa._y <<endl;
-            listbat.push_back(new Bateau(sh,ptinit,resa));
+            listBat.push_back(new Bateau(sh,ptinit,resa));
         }
         else{
             //cout << "\t plus de quai disponible -> del" <<endl;
             _perl->Delete(ptinit._x,ptinit._y);
-            sh->accept(v);                               //sh->~Ship()<--------------------------------------------------------
+            sh->accept(v);
         }
     }
     else{
-        //cout << "\t -> file d'attente" <<endl;
-        listatt.push_back(sh);
+        // Mise en file d'attente (si < 20)
+        if (listAtt.size() < 20 )
+            listAtt.push_back(sh);
+        else // sinon destruction
+            sh->accept(v);
     }
 }
 
@@ -127,12 +129,12 @@ void Cycle::movesship(Bateau* ship){
  * \author Charles Bong.
  */
 void Cycle::listmoveships(){
-    for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ ){
+    for (list<Bateau*>::iterator it = listBat.begin(); it != listBat.end(); it++ ){
             if(!(*it)->sh->iamdead)
                 movesship(*it);
             else{
                 delete (*it);
-                listbat.remove(*it);
+                listBat.remove(*it);
                 *it = NULL;
             }
     }
@@ -143,34 +145,33 @@ void Cycle::listmoveships(){
  * \author Charles Bong.
  */
 void Cycle::listattente(){
-    list<Ship*>::iterator it = listatt.begin();
-    list<Ship*>::iterator iat = listatt.end();
-    cout << "list att :[";
-    if(it!=iat){
-        //cout << "list att ship";
-        Cell ptinit = _perl->addShip(*it);
-        if(ptinit!=Cell(-1,-1)){ // Je peux rentrer dans le port (entrée libre)
-            //cout << "\t" << ptinit._x << " - " << ptinit._y;
-            Cell resa = _perl->getresaDock(*it);
-            if(resa != Cell(-1,-1)){
-                //cout << "\t" << resa._x << " - " << resa._y <<endl;
-                listbat.push_back(new Bateau(*it,ptinit,resa));
-                listatt.pop_front();
-            }
-            else{
-                Visitor* v = new Visitor();
-                //cout << "\t no place -> del" <<endl; // Plus de place disponible
-                _perl->Delete(ptinit._x,ptinit._y);
-                (*it)->accept(v);
-                listatt.pop_front();
-            }
-        }
-        else{
-            if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (*it)->getColor() );
-            cout << (*it)->getIcon();
-        } //cout << "\t pas encore" << endl; // l'entré du port est occupé
+    cout << "List Att :[";
+    bool insertPossible = true;
 
+    for (list<Ship*>::iterator it = listAtt.begin(); it != listAtt.end(); it++ ){
+        if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (*it)->getColor() );
+        cout << (*it)->getIcon();
+
+        if(insertPossible) {
+            Cell ptinit = _perl->addShip(*it);
+            if(ptinit!=Cell(-1,-1)){ // Je peux rentrer dans le port (entrée libre)
+                Cell resa = _perl->getresaDock(*it);
+                if(resa != Cell(-1,-1)){ // quai réservé, je peux m'y diriger
+                    listBat.push_back(new Bateau(*it,ptinit,resa));
+                    *it = NULL;
+                }
+                else{ // Plus de place disponible, je sort du port
+                    Visitor* v = new Visitor();
+                    _perl->Delete(ptinit._x,ptinit._y);
+                    (*it)->accept(v);
+                    *it = NULL;
+                }
+            } // l'entrée n'est pas libre, pas besoin de continuer la liste d'attente
+            else insertPossible = false;
+        }
     }
     if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7 );
     cout << "]" << endl;
+    listAtt.remove(NULL);
+
 }
