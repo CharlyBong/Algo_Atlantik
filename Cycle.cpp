@@ -128,16 +128,19 @@ void Cycle::movesship(Bateau* ship){
 /** \brief Bouge tous les bateaux du terrain
  * \author Charles Bong.
  */
-void Cycle::listmoveships(){
-    for (list<Bateau*>::iterator it = listBat.begin(); it != listBat.end(); it++ ){
-            if(!(*it)->sh->iamdead)
-                movesship(*it);
-            else{
-                delete (*it);
-                listBat.remove(*it);
-                *it = NULL;
-            }
+void Cycle::listmoveships()
+{
+    for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ )
+    {
+        if(!(*it)->sh->iamdead)
+            movesship(*it);
+        else
+        {
+            delete (*it);
+            *it = NULL;
+        }
     }
+    listbat.remove(NULL);
 }
 
 /** \brief Gestion de la liste d'attente
@@ -173,5 +176,4 @@ void Cycle::listattente(){
     if(COLOR) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7 );
     cout << "]" << endl;
     listAtt.remove(NULL);
-
 }
