@@ -22,5 +22,6 @@ var hierarchy =
     [ "ShipPartsFactory", "class_ship_parts_factory.html", [
       [ "KestrelPartsFactory", "class_kestrel_parts_factory.html", null ],
       [ "StealthPartsFactory", "class_stealth_parts_factory.html", null ]
-    ] ]
+    ] ],
+    [ "Visitor", "class_visitor.html", null ]
 ];

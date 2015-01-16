@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>Atlantik:  Fichier source de C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/main.cpp</title>
+<title>Atlantik:  Fichier source de C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/main.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -93,7 +94,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/main.cpp</div>  </div>
+<div class="title">C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/main.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="main_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
@@ -118,15 +119,14 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   15</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="class_cycle.html">Cycle</a>* cyc = <span class="keyword">new</span> <a class="code" href="class_cycle.html">Cycle</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    cyc-&gt;<a class="code" href="class_cycle.html#a8565877b50c848defd3cfdaed5aed504">~Cycle</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">delete</span> cyc;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="ttc" id="_harbor_8h_html"><div class="ttname"><a href="_harbor_8h.html">Harbor.h</a></div><div class="ttdoc">Déclaration de la classe Harbor. </div></div>
-<div class="ttc" id="class_cycle_html"><div class="ttname"><a href="class_cycle.html">Cycle</a></div><div class="ttdoc">Animation du port : Cycle de vie du port (Harbor), gère l&#39;arrivé de Ship dans le port ainsi que leur ...</div><div class="ttdef"><b>Definition:</b> <a href="_cycle_8h_source.html#l00030">Cycle.h:30</a></div></div>
+<div class="ttc" id="_harbor_8h_html"><div class="ttname"><a href="_harbor_8h.html">Harbor.h</a></div><div class="ttdoc">Classe Harbor : Gestion du port. </div></div>
+<div class="ttc" id="class_cycle_html"><div class="ttname"><a href="class_cycle.html">Cycle</a></div><div class="ttdoc">Animation du port : Cycle de vie du port (Harbor), gère l&#39;arrivé de Ship dans le port ainsi que leur ...</div><div class="ttdef"><b>Definition:</b> <a href="_cycle_8h_source.html#l00035">Cycle.h:35</a></div></div>
 <div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
 <div class="ttc" id="_ship_8h_html"><div class="ttname"><a href="_ship_8h.html">Ship.h</a></div><div class="ttdoc">Déclaration de la classe Ship. </div></div>
 <div class="ttc" id="_cycle_8h_html"><div class="ttname"><a href="_cycle_8h.html">Cycle.h</a></div><div class="ttdoc">Déclaration de la classe Cycle. </div></div>
-<div class="ttc" id="class_cycle_html_a8565877b50c848defd3cfdaed5aed504"><div class="ttname"><a href="class_cycle.html#a8565877b50c848defd3cfdaed5aed504">Cycle::~Cycle</a></div><div class="ttdeci">~Cycle()</div><div class="ttdoc">Destruction de l&#39;instance. </div><div class="ttdef"><b>Definition:</b> <a href="_cycle_8cpp_source.html#l00037">Cycle.cpp:37</a></div></div>
 <div class="ttc" id="main_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00015">main.cpp:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('main_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

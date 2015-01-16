@@ -1,0 +1,4 @@
+<map id="Ship::Ship" name="Ship::Ship">
+<area shape="rect" id="node2" href="$class_kestrel_parts_factory.html#a7eaa247a649aefe6b1e6d58a3c5fc8c9" title="KestrelPartsFactory\l::createEngine" alt="" coords="136,5,275,47"/>
+<area shape="rect" id="node3" href="$class_kestrel_parts_factory.html#adfc0ae7c4ebbfc6ed0455b11f66151b5" title="KestrelPartsFactory\l::createHull" alt="" coords="136,71,275,112"/>
+</map>

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_cycle.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -148,28 +149,30 @@ Fonctions membres privées</h2></td></tr>
 <tr class="memdesc:adce432cdd278d159d681f5ceea60f436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avancement d'une case d'un bateau.  <a href="#adce432cdd278d159d681f5ceea60f436">Plus de détails...</a><br /></td></tr>
 <tr class="separator:adce432cdd278d159d681f5ceea60f436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f45f66fdfa1590f4a6ada8076cf43a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6">movesship</a> (<a class="el" href="class_bateau.html">Bateau</a> *bat)</td></tr>
-<tr class="memdesc:a1f45f66fdfa1590f4a6ada8076cf43a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avancement d'un tour d'un bateau.  <a href="#a1f45f66fdfa1590f4a6ada8076cf43a6">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:a1f45f66fdfa1590f4a6ada8076cf43a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Avancement d'un certain nombre de case.  <a href="#a1f45f66fdfa1590f4a6ada8076cf43a6">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a1f45f66fdfa1590f4a6ada8076cf43a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6078c7b6bc1d492b6287caa859026b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a6078c7b6bc1d492b6287caa859026b50">listmoveships</a> ()</td></tr>
+<tr class="memdesc:a6078c7b6bc1d492b6287caa859026b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bouge tous les bateaux du terrain.  <a href="#a6078c7b6bc1d492b6287caa859026b50">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a6078c7b6bc1d492b6287caa859026b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0149afc7dbddaad6b0bb790c2e32a510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a0149afc7dbddaad6b0bb790c2e32a510">listattente</a> ()</td></tr>
+<tr class="memdesc:a0149afc7dbddaad6b0bb790c2e32a510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestion de la liste d'attente Merci à Julien pour l'idée d'afficher la liste d'attente.  <a href="#a0149afc7dbddaad6b0bb790c2e32a510">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a0149afc7dbddaad6b0bb790c2e32a510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Attributs privés</h2></td></tr>
 <tr class="memitem:abf97e608386fe458777aaaa72cbe2c60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_harbor.html">Harbor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#abf97e608386fe458777aaaa72cbe2c60">_perl</a></td></tr>
 <tr class="separator:abf97e608386fe458777aaaa72cbe2c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a877c1c7b497b1b29ec10c8d014639b45"><td class="memItemLeft" align="right" valign="top">list&lt; <a class="el" href="class_bateau.html">Bateau</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a877c1c7b497b1b29ec10c8d014639b45">listbat</a></td></tr>
-<tr class="separator:a877c1c7b497b1b29ec10c8d014639b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c13123a9c0d32caef4168f654aab622"><td class="memItemLeft" align="right" valign="top">list&lt; <a class="el" href="class_ship.html">Ship</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a5c13123a9c0d32caef4168f654aab622">listatt</a></td></tr>
-<tr class="separator:a5c13123a9c0d32caef4168f654aab622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d0767d2932f0edf090ece94e3dcd00"><td class="memItemLeft" align="right" valign="top">list&lt; <a class="el" href="class_bateau.html">Bateau</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#a27d0767d2932f0edf090ece94e3dcd00">listBat</a></td></tr>
+<tr class="separator:a27d0767d2932f0edf090ece94e3dcd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4fd3c06907a551e180500e38c87f9d1"><td class="memItemLeft" align="right" valign="top">list&lt; <a class="el" href="class_ship.html">Ship</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cycle.html#aa4fd3c06907a551e180500e38c87f9d1">listAtt</a></td></tr>
+<tr class="separator:aa4fd3c06907a551e180500e38c87f9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Animation du port : <a class="el" href="class_cycle.html" title="Animation du port : Cycle de vie du port (Harbor), gère l&#39;arrivé de Ship dans le port ainsi que leur ...">Cycle</a> de vie du port (<a class="el" href="class_harbor.html" title="Gestion du port : La classe gère le port, instance unique (Singleton) Un fichier de log est généré af...">Harbor</a>), gère l'arrivé de <a class="el" href="class_ship.html" title="un bateau ">Ship</a> dans le port ainsi que leur déplacement. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>27 Novembre 2014 </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00030">30</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00035">35</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
 </div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="aedcee99e72211c60e651aa44e275d39e"></a>
 <div class="memitem">
@@ -187,7 +190,7 @@ Attributs privés</h2></td></tr>
 <p>Initialise le cycle. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00018">18</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00019">19</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -216,16 +219,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <p>Destruction de l'instance. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00037">37</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_cycle_a8565877b50c848defd3cfdaed5aed504_icgraph.png" border="0" usemap="#class_cycle_a8565877b50c848defd3cfdaed5aed504_icgraph" alt=""/></div>
-<map name="class_cycle_a8565877b50c848defd3cfdaed5aed504_icgraph" id="class_cycle_a8565877b50c848defd3cfdaed5aed504_icgraph">
-<area shape="rect" id="node2" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="157,5,208,32"/></map>
-</div>
-</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00039">39</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 </div>
 </div>
@@ -254,14 +248,14 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Créer un bateau et le faire rentrer dans le port. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00047">47</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00050">50</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_cycle_af478b382c313d045637c0b6de7aa8846_cgraph.png" border="0" usemap="#class_cycle_af478b382c313d045637c0b6de7aa8846_cgraph" alt=""/></div>
 <map name="class_cycle_af478b382c313d045637c0b6de7aa8846_cgraph" id="class_cycle_af478b382c313d045637c0b6de7aa8846_cgraph">
-<area shape="rect" id="node2" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65" title="Ship::~Ship" alt="" coords="179,5,269,32"/></map>
+<area shape="rect" id="node2" href="class_ship.html#abaa27215d81990b465e0d11cce235204" title="Ship::accept" alt="" coords="179,5,273,32"/></map>
 </div>
 </p>
 
@@ -288,7 +282,10 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00119">119</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Gestion de la liste d'attente Merci à Julien pour l'idée d'afficher la liste d'attente. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00150">150</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 </div>
 </div>
@@ -313,7 +310,10 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00113">113</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Bouge tous les bateaux du terrain. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
+
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00131">131</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 </div>
 </div>
@@ -349,7 +349,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : case d'arrivé </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00085">85</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00101">101</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 </div>
 </div>
@@ -375,17 +375,16 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Avancement d'un tour d'un bateau. </p>
+<p>Avancement d'un certain nombre de case. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">ship</td><td>Bateau* : <a class="el" href="class_bateau.html" title="Encapsulation d&#39;un Ship : Conteneur de données du Ship pour Cycle. ">Bateau</a> à déplacer </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : case d'arrivé </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00104">104</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00119">119</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -423,7 +422,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>bool : arrivé ou non d'un bateau </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00075">75</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8cpp_source.html#l00091">91</a> du fichier <a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a>.</p>
 
 </div>
 </div>
@@ -446,11 +445,11 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00033">33</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00037">37</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c13123a9c0d32caef4168f654aab622"></a>
+<a class="anchor" id="aa4fd3c06907a551e180500e38c87f9d1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -458,7 +457,7 @@ Voici le graphe d'appel pour cette fonction :</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">list&lt;<a class="el" href="class_ship.html">Ship</a>*&gt; Cycle::listatt</td>
+          <td class="memname">list&lt;<a class="el" href="class_ship.html">Ship</a>*&gt; Cycle::listAtt</td>
         </tr>
       </table>
   </td>
@@ -468,11 +467,11 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00035">35</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00039">39</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a877c1c7b497b1b29ec10c8d014639b45"></a>
+<a class="anchor" id="a27d0767d2932f0edf090ece94e3dcd00"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -480,7 +479,7 @@ Voici le graphe d'appel pour cette fonction :</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">list&lt;<a class="el" href="class_bateau.html">Bateau</a>*&gt; Cycle::listbat</td>
+          <td class="memname">list&lt;<a class="el" href="class_bateau.html">Bateau</a>*&gt; Cycle::listBat</td>
         </tr>
       </table>
   </td>
@@ -490,13 +489,13 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00034">34</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_cycle_8h_source.html#l00038">38</a> du fichier <a class="el" href="_cycle_8h_source.html">Cycle.h</a>.</p>
 
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_cycle_8h_source.html">Cycle.h</a></li>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_cycle_8h_source.html">Cycle.h</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_cycle_8cpp_source.html">Cycle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -504,7 +503,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_cycle.html">Cycle</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

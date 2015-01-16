@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_bateau.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -194,6 +195,9 @@ Attributs publics</h2></td></tr>
 <a class="anchor" id="a8545a0456e618328674c5cdf629e14b5"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Bateau::~Bateau </td>
@@ -202,7 +206,23 @@ Attributs publics</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_bateau_8h_source.html#l00036">36</a> du fichier <a class="el" href="_bateau_8h_source.html">Bateau.h</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_bateau_a8545a0456e618328674c5cdf629e14b5_cgraph.png" border="0" usemap="#class_bateau_a8545a0456e618328674c5cdf629e14b5_cgraph" alt=""/></div>
+<map name="class_bateau_a8545a0456e618328674c5cdf629e14b5_cgraph" id="class_bateau_a8545a0456e618328674c5cdf629e14b5_cgraph">
+<area shape="rect" id="node2" href="class_ship.html#abaa27215d81990b465e0d11cce235204" title="Ship::accept" alt="" coords="173,5,268,32"/></map>
+</div>
+</p>
 
 </div>
 </div>
@@ -250,7 +270,7 @@ Attributs publics</h2></td></tr>
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_bateau_8h_source.html">Bateau.h</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_bateau_8h_source.html">Bateau.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -258,7 +278,7 @@ Attributs publics</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_bateau.html">Bateau</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

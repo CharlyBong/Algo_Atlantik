@@ -2,7 +2,7 @@ var searchData=
 [
   ['main',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
   ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['militaryship',['MilitaryShip',['../class_military_ship.html',1,'']]],
+  ['militaryship',['MilitaryShip',['../class_military_ship.html',1,'MilitaryShip'],['../class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3',1,'MilitaryShip::MilitaryShip(string nom, StealthPartsFactory *SPF)'],['../class_military_ship.html#a9e42ef915409e9598003bd697ad4ca39',1,'MilitaryShip::MilitaryShip(string nom, KestrelPartsFactory *SPF)']]],
   ['militaryship_2ecpp',['MilitaryShip.cpp',['../_military_ship_8cpp.html',1,'']]],
   ['militaryship_2eh',['MilitaryShip.h',['../_military_ship_8h.html',1,'']]],
   ['moves',['moves',['../class_cycle.html#adce432cdd278d159d681f5ceea60f436',1,'Cycle']]],

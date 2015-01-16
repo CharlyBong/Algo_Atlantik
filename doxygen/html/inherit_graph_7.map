@@ -1,7 +1,7 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
 <area shape="rect" id="node1" href="$class_ship.html" title="un bateau " alt="" coords="5,81,53,108"/>
 <area shape="rect" id="node2" href="$class_fishing_boat.html" title="Ship de péche. " alt="" coords="111,5,202,32"/>
-<area shape="rect" id="node3" href="$class_military_ship.html" title="Ship miliaire. " alt="" coords="111,56,202,83"/>
+<area shape="rect" id="node3" href="$class_military_ship.html" title="Ship de militaires. " alt="" coords="111,56,202,83"/>
 <area shape="rect" id="node4" href="$class_passenger_ship.html" title="Ship de passager. " alt="" coords="101,107,212,133"/>
 <area shape="rect" id="node5" href="$class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="107,157,207,184"/>
 </map>

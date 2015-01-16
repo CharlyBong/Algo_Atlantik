@@ -1,0 +1,7 @@
+<map id="PassengerShip::PassengerShip" name="PassengerShip::PassengerShip">
+<area shape="rect" id="node2" href="$class_ship.html#aa9701a85861c0ab19db13380df69d807" title="Ship::setNom" alt="" coords="279,5,380,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#aa8926e9dabe0f5cfd4edd1906a3a219b" title="Ship::setHull" alt="" coords="281,56,377,83"/>
+<area shape="rect" id="node4" href="$class_kestrel_parts_factory.html#adfc0ae7c4ebbfc6ed0455b11f66151b5" title="KestrelPartsFactory\l::createHull" alt="" coords="260,107,399,149"/>
+<area shape="rect" id="node5" href="$class_ship.html#ad974b96617db7e8d0deea51fca4b0312" title="Ship::setEngine" alt="" coords="272,173,387,200"/>
+<area shape="rect" id="node6" href="$class_kestrel_parts_factory.html#a7eaa247a649aefe6b1e6d58a3c5fc8c9" title="KestrelPartsFactory\l::createEngine" alt="" coords="260,225,399,266"/>
+</map>

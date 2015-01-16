@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Atlantik", "index.html", [
+    [ "Algo_Atlantiklgo_Atlantik", "md__c_1__users_cbongiorno__documents__mes__documents__projet__algo__atlantik__r_e_a_d_m_e.html", null ],
     [ "Classes", null, [
       [ "Liste des classes", "annotated.html", "annotated" ],
       [ "Index des classes", "classes.html", null ],
@@ -24,7 +25,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_bateau_8h.html"
+"_bateau_8h.html",
+"class_ship.html#ae4135b41b193a8b5d5cef4642157bf80"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

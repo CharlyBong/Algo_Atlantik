@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_passenger_ship.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -107,6 +108,7 @@ $(document).ready(function(){initNavTree('class_passenger_ship.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
 <a href="#pri-attribs">Attributs privés</a> &#124;
 <a href="class_passenger_ship-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
@@ -137,6 +139,12 @@ Graphe de collaboration de PassengerShip:</div>
 Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a5569c2cc0888f35eec5fded18297df7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c">PassengerShip</a> (string nom, <a class="el" href="class_stealth_parts_factory.html">StealthPartsFactory</a> *SPF)</td></tr>
 <tr class="separator:a5569c2cc0888f35eec5fded18297df7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6cfa3878e39045277234f2b8a34ab00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#ac6cfa3878e39045277234f2b8a34ab00">PassengerShip</a> (string nom, <a class="el" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *SPF)</td></tr>
+<tr class="separator:ac6cfa3878e39045277234f2b8a34ab00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283cd2e38369942c6cf37b6956a0e48b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a283cd2e38369942c6cf37b6956a0e48b">~PassengerShip</a> ()</td></tr>
+<tr class="separator:a283cd2e38369942c6cf37b6956a0e48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02575748ecfad6c0d259968b7bc51c5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a02575748ecfad6c0d259968b7bc51c5d">accept</a> (<a class="el" href="class_visitor.html">Visitor</a> *v)</td></tr>
+<tr class="separator:a02575748ecfad6c0d259968b7bc51c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d83a36cf83a45f865c6abc6f515df52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a6d83a36cf83a45f865c6abc6f515df52">accept</a> (int dockId)</td></tr>
 <tr class="separator:a6d83a36cf83a45f865c6abc6f515df52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69b009312cefdd5a345e6ee6f6332abd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a69b009312cefdd5a345e6ee6f6332abd">isMoveOK</a> ()</td></tr>
@@ -145,17 +153,23 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:a47c677961f8f0682a21afab31cbe0dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37bb5feebcfbe74f43d7772d4724cccf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf">getPriority</a> ()</td></tr>
 <tr class="separator:a37bb5feebcfbe74f43d7772d4724cccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b48a710f7c24264dc79f190d786d78"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#aa1b48a710f7c24264dc79f190d786d78">getIcon</a> ()</td></tr>
+<tr class="separator:aa1b48a710f7c24264dc79f190d786d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf73d38f413ddbc49f605778b34fc934"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#adf73d38f413ddbc49f605778b34fc934">getColor</a> ()</td></tr>
+<tr class="separator:adf73d38f413ddbc49f605778b34fc934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ship"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ship')"><img src="closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="class_ship.html">Ship</a></td></tr>
 <tr class="memitem:ab7608fcfc4d27c678aacaf9bfd68a462 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462">Ship</a> ()</td></tr>
 <tr class="separator:ab7608fcfc4d27c678aacaf9bfd68a462 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cd6eeaffc11b49239b091621963a65 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65">~Ship</a> ()</td></tr>
+<tr class="separator:a43cd6eeaffc11b49239b091621963a65 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4135b41b193a8b5d5cef4642157bf80 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ae4135b41b193a8b5d5cef4642157bf80">Ship</a> (string nom, <a class="el" href="class_engine.html">Engine</a> *e, <a class="el" href="class_hull.html">Hull</a> *h)</td></tr>
 <tr class="separator:ae4135b41b193a8b5d5cef4642157bf80 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af550f26b56fb2c67f43da63da23d46c0 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#af550f26b56fb2c67f43da63da23d46c0">Ship</a> (string nom, <a class="el" href="class_stealth_parts_factory.html">StealthPartsFactory</a> *SPF)</td></tr>
 <tr class="separator:af550f26b56fb2c67f43da63da23d46c0 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf92025ee8cd8bfe31dc799cf346177 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#aacf92025ee8cd8bfe31dc799cf346177">Ship</a> (string nom, <a class="el" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *KPF)</td></tr>
+<tr class="separator:aacf92025ee8cd8bfe31dc799cf346177 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277a6bb501eced4bbeed89e4f1536c61 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a277a6bb501eced4bbeed89e4f1536c61">Ship</a> (const <a class="el" href="class_ship.html">Ship</a> &amp;)</td></tr>
 <tr class="separator:a277a6bb501eced4bbeed89e4f1536c61 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43cd6eeaffc11b49239b091621963a65 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65">~Ship</a> ()</td></tr>
-<tr class="separator:a43cd6eeaffc11b49239b091621963a65 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e5e5a13dfa89acbeeb47835ae422e1 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1">getNom</a> () const </td></tr>
 <tr class="separator:ad8e5e5a13dfa89acbeeb47835ae422e1 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99284dc1f4c31f530f20698a51e114fc inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a99284dc1f4c31f530f20698a51e114fc">SetNom</a> (string nom)</td></tr>
@@ -170,13 +184,37 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:aa8926e9dabe0f5cfd4edd1906a3a219b inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad974b96617db7e8d0deea51fca4b0312 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ad974b96617db7e8d0deea51fca4b0312">setEngine</a> (<a class="el" href="class_engine.html">Engine</a> *e)</td></tr>
 <tr class="separator:ad974b96617db7e8d0deea51fca4b0312 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b84a7a492f137f7e3431ce6560f23ce inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_hull.html">Hull</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a5b84a7a492f137f7e3431ce6560f23ce">getHull</a> ()</td></tr>
+<tr class="separator:a5b84a7a492f137f7e3431ce6560f23ce inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd4b1b0842a9abb2ea9ab1a6089bc9d inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#abdd4b1b0842a9abb2ea9ab1a6089bc9d">getEngine</a> ()</td></tr>
+<tr class="separator:abdd4b1b0842a9abb2ea9ab1a6089bc9d inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60a752541d9a501efb00a0d29e93abc9 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ship.html">Ship</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a60a752541d9a501efb00a0d29e93abc9">operator=</a> (const <a class="el" href="class_ship.html">Ship</a> &amp;p)</td></tr>
 <tr class="separator:a60a752541d9a501efb00a0d29e93abc9 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:a32445bab39c131069ec691953eb3fe0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a32445bab39c131069ec691953eb3fe0f">type</a> = 0</td></tr>
+<tr class="separator:a32445bab39c131069ec691953eb3fe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_ship"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_ship')"><img src="closed.png" alt="-"/>&#160;Attributs publics hérités de <a class="el" href="class_ship.html">Ship</a></td></tr>
+<tr class="memitem:a54f3b90cfa64e23c5fb0dfcd41f55a91 inherit pub_attribs_class_ship"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a54f3b90cfa64e23c5fb0dfcd41f55a91">type</a> = -1</td></tr>
+<tr class="separator:a54f3b90cfa64e23c5fb0dfcd41f55a91 inherit pub_attribs_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac245b7e2fdd2fd753f77ff91bffd1e inherit pub_attribs_class_ship"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#aaac245b7e2fdd2fd753f77ff91bffd1e">iamdead</a> = false</td></tr>
+<tr class="separator:aaac245b7e2fdd2fd753f77ff91bffd1e inherit pub_attribs_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Attributs privés</h2></td></tr>
 <tr class="memitem:a6b4299bf6b84b211129bcb47672e8add"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_passenger_ship.html#a6b4299bf6b84b211129bcb47672e8add">_fp</a> = 0.2</td></tr>
 <tr class="separator:a6b4299bf6b84b211129bcb47672e8add"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_ship"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ship')"><img src="closed.png" alt="-"/>&#160;Attributs protégés hérités de <a class="el" href="class_ship.html">Ship</a></td></tr>
+<tr class="memitem:a62e2cc86c29adc14be92c7c5c5bbb96a inherit pro_attribs_class_ship"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a62e2cc86c29adc14be92c7c5c5bbb96a">_nom</a></td></tr>
+<tr class="separator:a62e2cc86c29adc14be92c7c5c5bbb96a inherit pro_attribs_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d024a2e7dd98eaa7e8c370dd4091c1 inherit pro_attribs_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ae9d024a2e7dd98eaa7e8c370dd4091c1">_engine</a></td></tr>
+<tr class="separator:ae9d024a2e7dd98eaa7e8c370dd4091c1 inherit pro_attribs_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f82fd9fe2ca4b2a16a9e4aa531a6ec inherit pro_attribs_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_hull.html">Hull</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a07f82fd9fe2ca4b2a16a9e4aa531a6ec">_hull</a></td></tr>
+<tr class="separator:a07f82fd9fe2ca4b2a16a9e4aa531a6ec inherit pro_attribs_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p><a class="el" href="class_ship.html" title="un bateau ">Ship</a> de passager. </p>
@@ -222,7 +260,98 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 </div>
 </div>
+<a class="anchor" id="ac6cfa3878e39045277234f2b8a34ab00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PassengerShip::PassengerShip </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *&#160;</td>
+          <td class="paramname"><em>SPF</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8cpp_source.html#l00012">12</a> du fichier <a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_passenger_ship_ac6cfa3878e39045277234f2b8a34ab00_cgraph.png" border="0" usemap="#class_passenger_ship_ac6cfa3878e39045277234f2b8a34ab00_cgraph" alt=""/></div>
+<map name="class_passenger_ship_ac6cfa3878e39045277234f2b8a34ab00_cgraph" id="class_passenger_ship_ac6cfa3878e39045277234f2b8a34ab00_cgraph">
+<area shape="rect" id="node2" href="class_ship.html#aa9701a85861c0ab19db13380df69d807" title="Ship::setNom" alt="" coords="279,5,380,32"/><area shape="rect" id="node3" href="class_ship.html#aa8926e9dabe0f5cfd4edd1906a3a219b" title="Ship::setHull" alt="" coords="281,56,377,83"/><area shape="rect" id="node4" href="class_kestrel_parts_factory.html#adfc0ae7c4ebbfc6ed0455b11f66151b5" title="KestrelPartsFactory\l::createHull" alt="" coords="260,107,399,149"/><area shape="rect" id="node5" href="class_ship.html#ad974b96617db7e8d0deea51fca4b0312" title="Ship::setEngine" alt="" coords="272,173,387,200"/><area shape="rect" id="node6" href="class_kestrel_parts_factory.html#a7eaa247a649aefe6b1e6d58a3c5fc8c9" title="KestrelPartsFactory\l::createEngine" alt="" coords="260,225,399,266"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a283cd2e38369942c6cf37b6956a0e48b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PassengerShip::~PassengerShip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8cpp_source.html#l00020">20</a> du fichier <a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Documentation des fonctions membres</h2>
+<a class="anchor" id="a02575748ecfad6c0d259968b7bc51c5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PassengerShip::accept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_visitor.html">Visitor</a> *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="class_ship.html#abaa27215d81990b465e0d11cce235204">Ship</a>.</p>
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8cpp_source.html#l00030">30</a> du fichier <a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_passenger_ship_a02575748ecfad6c0d259968b7bc51c5d_cgraph.png" border="0" usemap="#class_passenger_ship_a02575748ecfad6c0d259968b7bc51c5d_cgraph" alt=""/></div>
+<map name="class_passenger_ship_a02575748ecfad6c0d259968b7bc51c5d_cgraph" id="class_passenger_ship_a02575748ecfad6c0d259968b7bc51c5d_cgraph">
+<area shape="rect" id="node2" href="class_visitor.html#ae36fd07d108f75d6fd9e0a7f75a9db79" title="Visitor::display" alt="" coords="211,5,319,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a6d83a36cf83a45f865c6abc6f515df52"></a>
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +376,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 <p>Implémente <a class="el" href="class_ship.html#ae0372567dec019c3a9c0eed976606e5b">Ship</a>.</p>
 
-<p>Définition à la ligne <a class="el" href="_passenger_ship_8cpp_source.html#l00011">11</a> du fichier <a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8cpp_source.html#l00025">25</a> du fichier <a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a>.</p>
 
 </div>
 </div>
@@ -274,7 +403,61 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 <p>Implémente <a class="el" href="class_ship.html#a31de96c51d2a479fe6f280702c235d7c">Ship</a>.</p>
 
-<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00024">24</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00028">28</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adf73d38f413ddbc49f605778b34fc934"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PassengerShip::getColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="class_ship.html#a4a0eaa215b0c4364064a1d6e78da7130">Ship</a>.</p>
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00032">32</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1b48a710f7c24264dc79f190d786d78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char PassengerShip::getIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="class_ship.html#a9996a63634fe095883ef3dceb3c52877">Ship</a>.</p>
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00031">31</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +484,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 <p>Implémente <a class="el" href="class_ship.html#ae07a228ddd9f92aff12efc809c34e36f">Ship</a>.</p>
 
-<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00025">25</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00029">29</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +511,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 <p>Implémente <a class="el" href="class_ship.html#a2d18b0a7e563f23918cbdd28bf8f919e">Ship</a>.</p>
 
-<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00023">23</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00027">27</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
 
 </div>
 </div>
@@ -351,13 +534,27 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00028">28</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00035">35</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32445bab39c131069ec691953eb3fe0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PassengerShip::type = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_passenger_ship_8h_source.html#l00023">23</a> du fichier <a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a>.</p>
 
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a></li>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_passenger_ship_8h_source.html">PassengerShip.h</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_passenger_ship_8cpp_source.html">PassengerShip.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -365,7 +562,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_passenger_ship.html">PassengerShip</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

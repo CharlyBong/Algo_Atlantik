@@ -1,9 +1,9 @@
-<map id="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/Cell.h" name="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/Cell.h">
-<area shape="rect" id="node2" href="$_bateau_8h.html" title="Déclaration de la classe Bateau. " alt="" coords="5,109,196,165"/>
-<area shape="rect" id="node3" href="$_cycle_8h.html" title="Déclaration de la classe Cycle. " alt="" coords="139,213,329,269"/>
-<area shape="rect" id="node6" href="$_cell_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="272,109,463,165"/>
-<area shape="rect" id="node7" href="$_harbor_8h.html" title="Déclaration de la classe Harbor. " alt="" coords="487,109,677,165"/>
-<area shape="rect" id="node4" href="$_cycle_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="139,317,329,373"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title="Fichier principal du programme Fichier de départ du programme. " alt="" coords="353,317,544,373"/>
-<area shape="rect" id="node8" href="$_harbor_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="486,213,681,269"/>
+<map id="C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/Cell.h" name="C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/Cell.h">
+<area shape="rect" id="node2" href="$_bateau_8h.html" title="Déclaration de la classe Bateau. " alt="" coords="5,109,203,165"/>
+<area shape="rect" id="node3" href="$_cycle_8h.html" title="Déclaration de la classe Cycle. " alt="" coords="145,213,335,269"/>
+<area shape="rect" id="node6" href="$_cell_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="277,109,469,165"/>
+<area shape="rect" id="node7" href="$_harbor_8h.html" title="Classe Harbor : Gestion du port. " alt="" coords="493,109,688,165"/>
+<area shape="rect" id="node4" href="$_cycle_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="131,317,333,373"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Fichier principal du programme Fichier de départ du programme. " alt="" coords="358,317,557,373"/>
+<area shape="rect" id="node8" href="$_harbor_8cpp.html" title="Implémentation de la classe Harbor. " alt="" coords="495,213,703,269"/>
 </map>

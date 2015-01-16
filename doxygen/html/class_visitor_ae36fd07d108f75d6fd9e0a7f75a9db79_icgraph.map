@@ -1,0 +1,6 @@
+<map id="Visitor::display" name="Visitor::display">
+<area shape="rect" id="node2" href="$class_fishing_boat.html#a0de89a687e1ca15787f72168a93d6c1e" title="FishingBoat::accept" alt="" coords="171,5,309,32"/>
+<area shape="rect" id="node3" href="$class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1" title="MilitaryShip::accept" alt="" coords="171,56,309,83"/>
+<area shape="rect" id="node4" href="$class_passenger_ship.html#a02575748ecfad6c0d259968b7bc51c5d" title="PassengerShip::accept" alt="" coords="161,107,319,133"/>
+<area shape="rect" id="node5" href="$class_pleasure_craft.html#ae3174546954fd68e0bd5921ae8ba5b40" title="PleasureCraft::accept" alt="" coords="167,157,313,184"/>
+</map>

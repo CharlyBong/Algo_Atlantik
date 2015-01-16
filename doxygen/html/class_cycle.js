@@ -9,6 +9,6 @@ var class_cycle =
     [ "movesship", "class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6", null ],
     [ "proba", "class_cycle.html#a1d0ba33ffb4e56842bfcb8e8c197b86a", null ],
     [ "_perl", "class_cycle.html#abf97e608386fe458777aaaa72cbe2c60", null ],
-    [ "listatt", "class_cycle.html#a5c13123a9c0d32caef4168f654aab622", null ],
-    [ "listbat", "class_cycle.html#a877c1c7b497b1b29ec10c8d014639b45", null ]
+    [ "listAtt", "class_cycle.html#aa4fd3c06907a551e180500e38c87f9d1", null ],
+    [ "listBat", "class_cycle.html#a27d0767d2932f0edf090ece94e3dcd00", null ]
 ];

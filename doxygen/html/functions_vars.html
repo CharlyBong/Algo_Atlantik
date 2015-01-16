@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -167,11 +168,14 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>desti
 : <a class="el" href="class_bateau.html#a87f3cfb9075dffab07ebff689ab346c8">Bateau</a>
 </li>
-<li>listatt
-: <a class="el" href="class_cycle.html#a5c13123a9c0d32caef4168f654aab622">Cycle</a>
+<li>iamdead
+: <a class="el" href="class_ship.html#aaac245b7e2fdd2fd753f77ff91bffd1e">Ship</a>
 </li>
-<li>listbat
-: <a class="el" href="class_cycle.html#a877c1c7b497b1b29ec10c8d014639b45">Cycle</a>
+<li>listAtt
+: <a class="el" href="class_cycle.html#aa4fd3c06907a551e180500e38c87f9d1">Cycle</a>
+</li>
+<li>listBat
+: <a class="el" href="class_cycle.html#a27d0767d2932f0edf090ece94e3dcd00">Cycle</a>
 </li>
 <li>posi
 : <a class="el" href="class_bateau.html#ab750e63e4592dd382b1193a37e623e7d">Bateau</a>
@@ -179,13 +183,20 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>sh
 : <a class="el" href="class_bateau.html#adafc203d365c2eec485eed3d8b1abb28">Bateau</a>
 </li>
+<li>type
+: <a class="el" href="class_fishing_boat.html#a7c834353425dfa956c06d7ce886e0112">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#a6f125dc20c003771723c619754635818">MilitaryShip</a>
+, <a class="el" href="class_passenger_ship.html#a32445bab39c131069ec691953eb3fe0f">PassengerShip</a>
+, <a class="el" href="class_pleasure_craft.html#ab400d2be5f3826d96d22270e23050b8b">PleasureCraft</a>
+, <a class="el" href="class_ship.html#a54f3b90cfa64e23c5fb0dfcd41f55a91">Ship</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

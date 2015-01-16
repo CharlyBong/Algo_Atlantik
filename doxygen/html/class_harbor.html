@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_harbor.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -154,7 +155,7 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memdesc:af400564bf9edeb043ebbb2121e33e540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Génère un numéro de dock aléatoire.  <a href="#af400564bf9edeb043ebbb2121e33e540">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af400564bf9edeb043ebbb2121e33e540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae423d0c04a21a06c479be8b1b2aed60e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#ae423d0c04a21a06c479be8b1b2aed60e">print</a> ()</td></tr>
-<tr class="memdesc:ae423d0c04a21a06c479be8b1b2aed60e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affichage du port.  <a href="#ae423d0c04a21a06c479be8b1b2aed60e">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:ae423d0c04a21a06c479be8b1b2aed60e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affichage du port Merci à Julien pour l'idée des couleurs.  <a href="#ae423d0c04a21a06c479be8b1b2aed60e">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ae423d0c04a21a06c479be8b1b2aed60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5a5eb84eb04c38ae39c68eb1b03928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#a9e5a5eb84eb04c38ae39c68eb1b03928">finddock</a> (int id)</td></tr>
 <tr class="memdesc:a9e5a5eb84eb04c38ae39c68eb1b03928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère les coordonnées d'un quai.  <a href="#a9e5a5eb84eb04c38ae39c68eb1b03928">Plus de détails...</a><br /></td></tr>
@@ -189,9 +190,9 @@ Fonctions membres privées</h2></td></tr>
 <tr class="memitem:ab3319da88c8373cdef4f6fb6b62aec11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#ab3319da88c8373cdef4f6fb6b62aec11">collision</a> (<a class="el" href="class_ship.html">Ship</a> *s1, <a class="el" href="class_ship.html">Ship</a> *s2)</td></tr>
 <tr class="memdesc:ab3319da88c8373cdef4f6fb6b62aec11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestion de collision entre deux bateau.  <a href="#ab3319da88c8373cdef4f6fb6b62aec11">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab3319da88c8373cdef4f6fb6b62aec11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d041c3439043d64e85703490bb8f42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#a55d041c3439043d64e85703490bb8f42">Harbor</a> (int x=10, int y=10)</td></tr>
-<tr class="memdesc:a55d041c3439043d64e85703490bb8f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie la validité des coordonnées d'une case.  <a href="#a55d041c3439043d64e85703490bb8f42">Plus de détails...</a><br /></td></tr>
-<tr class="separator:a55d041c3439043d64e85703490bb8f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd2c5d02e8c7d434d1faaa2992e3a04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#aecd2c5d02e8c7d434d1faaa2992e3a04">Harbor</a> (int x=20, int y=20)</td></tr>
+<tr class="memdesc:aecd2c5d02e8c7d434d1faaa2992e3a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie la validité des coordonnées d'une case.  <a href="#aecd2c5d02e8c7d434d1faaa2992e3a04">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aecd2c5d02e8c7d434d1faaa2992e3a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafc7780613d3240583247b5742327b4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_harbor.html#aafc7780613d3240583247b5742327b4a">~Harbor</a> ()</td></tr>
 <tr class="memdesc:aafc7780613d3240583247b5742327b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur.  <a href="#aafc7780613d3240583247b5742327b4a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aafc7780613d3240583247b5742327b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,9 +221,9 @@ Attributs privés statiques</h2></td></tr>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>27 Novembre 2014 </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00038">38</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00042">42</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 </div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
-<a class="anchor" id="a55d041c3439043d64e85703490bb8f42"></a>
+<a class="anchor" id="aecd2c5d02e8c7d434d1faaa2992e3a04"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -233,13 +234,13 @@ Attributs privés statiques</h2></td></tr>
           <td class="memname">Harbor::Harbor </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em> = <code>10</code>, </td>
+          <td class="paramname"><em>x</em> = <code>20</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em> = <code>10</code>&#160;</td>
+          <td class="paramname"><em>y</em> = <code>20</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -264,7 +265,7 @@ Attributs privés statiques</h2></td></tr>
 </dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00022">22</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00023">23</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +293,7 @@ Attributs privés statiques</h2></td></tr>
 <p>Destructeur. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00048">48</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00054">54</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -339,7 +340,7 @@ Attributs privés statiques</h2></td></tr>
 <dl class="section return"><dt>Renvoie</dt><dd>int : 0 pour une insertion réussi, -1 en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00109">109</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00118">118</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -378,7 +379,7 @@ Attributs privés statiques</h2></td></tr>
 <dl class="section return"><dt>Renvoie</dt><dd>int : 0 pour une insertion réussi, -1 en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00091">91</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00100">100</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -415,7 +416,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : cellule d'arrivé ou la case (-1,-1) s'il n'y a pas de place en entrée </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00075">75</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00084">84</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -471,14 +472,14 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>int : 0 si s1 fait demi-tour, 1 si s1 écrase s2 </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00352">352</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00374">374</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_harbor_ab3319da88c8373cdef4f6fb6b62aec11_cgraph.png" border="0" usemap="#class_harbor_ab3319da88c8373cdef4f6fb6b62aec11_cgraph" alt=""/></div>
 <map name="class_harbor_ab3319da88c8373cdef4f6fb6b62aec11_cgraph" id="class_harbor_ab3319da88c8373cdef4f6fb6b62aec11_cgraph">
-<area shape="rect" id="node2" href="class_ship.html#ada4a1b54f8d361b71159401985880868" title="Ship::getHullSolidity" alt="" coords="168,5,307,32"/><area shape="rect" id="node4" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1" title="Ship::getNom" alt="" coords="187,56,288,83"/><area shape="rect" id="node5" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65" title="Ship::~Ship" alt="" coords="192,107,283,133"/><area shape="rect" id="node3" href="class_hull.html#a6291cb54028de5134b6034c81baf70e9" title="Hull::getSolidity" alt="" coords="355,5,468,32"/></map>
+<area shape="rect" id="node2" href="class_ship.html#ada4a1b54f8d361b71159401985880868" title="Ship::getHullSolidity" alt="" coords="168,5,307,32"/><area shape="rect" id="node4" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1" title="Ship::getNom" alt="" coords="187,56,288,83"/><area shape="rect" id="node3" href="class_hull.html#a6291cb54028de5134b6034c81baf70e9" title="Hull::getSolidity" alt="" coords="355,5,468,32"/></map>
 </div>
 </p>
 
@@ -518,7 +519,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00176">176</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00185">185</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -546,7 +547,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <p>Destructeur d'instance. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00063">63</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00072">72</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -592,7 +593,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00331">331</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00353">353</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -620,7 +621,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : Cellule du quai, ou la case (-1,-1) en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00218">218</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00240">240</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -648,7 +649,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>int : numéro du quai </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00186">186</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00196">196</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +677,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>int : id du quai, ou -1 s'il n'y a pas de quai réserver </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00300">300</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00322">322</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -697,7 +698,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>list&lt;Cell&gt; : liste de cellule de point d'entrée </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00318">318</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00340">340</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -725,7 +726,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <p>Récupérateur d'instance. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00054">54</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00063">63</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
@@ -762,14 +763,14 @@ Voici le graphe des appelants de cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : Cellule du quai réservé, ou la case (-1,-1) s'il n'y a pas de place </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00248">248</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00270">270</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_harbor_a8bc3552dfadc36e53f09f280915be000_cgraph.png" border="0" usemap="#class_harbor_a8bc3552dfadc36e53f09f280915be000_cgraph" alt=""/></div>
 <map name="class_harbor_a8bc3552dfadc36e53f09f280915be000_cgraph" id="class_harbor_a8bc3552dfadc36e53f09f280915be000_cgraph">
-<area shape="rect" id="node2" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="203,5,326,32"/><area shape="rect" id="node4" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1" title="Ship::getNom" alt="" coords="214,56,315,83"/><area shape="rect" id="node5" href="class_dock.html#ad0e9ede311e47737897bcc65219b18ef" title="Effectue une surréservation d&#39;un dock. " alt="" coords="195,107,335,133"/><area shape="rect" id="node3" href="class_ship.html#ae0372567dec019c3a9c0eed976606e5b" title="Ship::accept" alt="" coords="393,5,487,32"/><area shape="rect" id="node6" href="class_ship.html#ae07a228ddd9f92aff12efc809c34e36f" title="Ship::getPriority" alt="" coords="383,107,497,133"/></map>
+<area shape="rect" id="node2" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="203,5,326,32"/><area shape="rect" id="node4" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1" title="Ship::getNom" alt="" coords="214,56,315,83"/><area shape="rect" id="node5" href="class_dock.html#ad0e9ede311e47737897bcc65219b18ef" title="Effectue une surréservation d&#39;un dock. " alt="" coords="195,107,335,133"/><area shape="rect" id="node3" href="class_ship.html#abaa27215d81990b465e0d11cce235204" title="Ship::accept" alt="" coords="393,5,487,32"/><area shape="rect" id="node6" href="class_ship.html#ae07a228ddd9f92aff12efc809c34e36f" title="Ship::getPriority" alt="" coords="383,107,497,133"/></map>
 </div>
 </p>
 
@@ -810,7 +811,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_ship.html" title="un bateau ">Ship</a> : </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00120">120</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00129">129</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -849,7 +850,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : Cellule d'arrivé effective, ou la case (-1,-1) en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00132">132</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00141">141</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -900,7 +901,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : Cellule d'arrivé effective, ou la case (-1,-1) en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00144">144</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00153">153</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -917,10 +918,10 @@ Voici le graphe d'appel pour cette fonction :</div>
       </table>
 </div><div class="memdoc">
 
-<p>Affichage du port. </p>
+<p>Affichage du port Merci à Julien pour l'idée des couleurs. </p>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00199">199</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00210">210</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -959,14 +960,14 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd><a class="el" href="class_cell.html" title="Case du Port : Cellule de la grille du port (Harbor) ">Cell</a> : Cellule du quai, ou la case (-1,-1) en cas d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00237">237</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00259">259</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_harbor_a3758bc0fac1975a64b00a9d2194a91e4_cgraph.png" border="0" usemap="#class_harbor_a3758bc0fac1975a64b00a9d2194a91e4_cgraph" alt=""/></div>
 <map name="class_harbor_a3758bc0fac1975a64b00a9d2194a91e4_cgraph" id="class_harbor_a3758bc0fac1975a64b00a9d2194a91e4_cgraph">
-<area shape="rect" id="node2" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="176,5,299,32"/><area shape="rect" id="node3" href="class_ship.html#ae0372567dec019c3a9c0eed976606e5b" title="Ship::accept" alt="" coords="347,5,441,32"/></map>
+<area shape="rect" id="node2" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="176,5,299,32"/><area shape="rect" id="node3" href="class_ship.html#abaa27215d81990b465e0d11cce235204" title="Ship::accept" alt="" coords="347,5,441,32"/></map>
 </div>
 </p>
 
@@ -1015,7 +1016,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <dl class="section return"><dt>Renvoie</dt><dd>int : 0 si la case et valide et libre, sinon un code d'erreur </dd></dl>
 <dl class="section author"><dt>Auteur</dt><dd>Charles Bong. </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00371">371</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8cpp_source.html#l00395">395</a> du fichier <a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1039,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00042">42</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00045">45</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1061,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00041">41</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00044">44</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 
 </div>
 </div>
@@ -1082,7 +1083,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00043">43</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00046">46</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 
 </div>
 </div>
@@ -1104,7 +1105,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00044">44</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00047">47</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 
 </div>
 </div>
@@ -1126,13 +1127,13 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00045">45</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_harbor_8h_source.html#l00048">48</a> du fichier <a class="el" href="_harbor_8h_source.html">Harbor.h</a>.</p>
 
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_harbor_8h_source.html">Harbor.h</a></li>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_harbor_8h_source.html">Harbor.h</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_harbor_8cpp_source.html">Harbor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1140,7 +1141,7 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_harbor.html">Harbor</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

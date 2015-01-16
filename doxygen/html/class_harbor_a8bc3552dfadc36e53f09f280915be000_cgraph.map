@@ -2,6 +2,6 @@
 <area shape="rect" id="node2" href="$class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="203,5,326,32"/>
 <area shape="rect" id="node4" href="$class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1" title="Ship::getNom" alt="" coords="214,56,315,83"/>
 <area shape="rect" id="node5" href="$class_dock.html#ad0e9ede311e47737897bcc65219b18ef" title="Effectue une surréservation d&#39;un dock. " alt="" coords="195,107,335,133"/>
-<area shape="rect" id="node3" href="$class_ship.html#ae0372567dec019c3a9c0eed976606e5b" title="Ship::accept" alt="" coords="393,5,487,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#abaa27215d81990b465e0d11cce235204" title="Ship::accept" alt="" coords="393,5,487,32"/>
 <area shape="rect" id="node6" href="$class_ship.html#ae07a228ddd9f92aff12efc809c34e36f" title="Ship::getPriority" alt="" coords="383,107,497,133"/>
 </map>

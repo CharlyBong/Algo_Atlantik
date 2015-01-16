@@ -18,5 +18,6 @@ var annotated =
     [ "ShipPartsFactory", "class_ship_parts_factory.html", "class_ship_parts_factory" ],
     [ "StealthEngine", "class_stealth_engine.html", "class_stealth_engine" ],
     [ "StealthHull", "class_stealth_hull.html", "class_stealth_hull" ],
-    [ "StealthPartsFactory", "class_stealth_parts_factory.html", "class_stealth_parts_factory" ]
+    [ "StealthPartsFactory", "class_stealth_parts_factory.html", "class_stealth_parts_factory" ],
+    [ "Visitor", "class_visitor.html", "class_visitor" ]
 ];

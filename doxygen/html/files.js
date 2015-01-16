@@ -73,5 +73,9 @@ var files =
     [ "StealthPartsFactory.cpp", "_stealth_parts_factory_8cpp.html", null ],
     [ "StealthPartsFactory.h", "_stealth_parts_factory_8h.html", [
       [ "StealthPartsFactory", "class_stealth_parts_factory.html", "class_stealth_parts_factory" ]
+    ] ],
+    [ "Visitor.cpp", "_visitor_8cpp.html", null ],
+    [ "Visitor.h", "_visitor_8h.html", [
+      [ "Visitor", "class_visitor.html", "class_visitor" ]
     ] ]
 ];

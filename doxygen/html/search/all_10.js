@@ -5,7 +5,7 @@ var searchData=
   ['setnom',['setNom',['../class_ship.html#aa9701a85861c0ab19db13380df69d807',1,'Ship::setNom(string n)'],['../class_ship.html#a99284dc1f4c31f530f20698a51e114fc',1,'Ship::SetNom(string nom)']]],
   ['setxy',['setXY',['../class_cell.html#af605e4499c9147e20cb48340f456ab64',1,'Cell']]],
   ['sh',['sh',['../class_bateau.html#adafc203d365c2eec485eed3d8b1abb28',1,'Bateau']]],
-  ['ship',['Ship',['../class_ship.html',1,'Ship'],['../class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462',1,'Ship::Ship()'],['../class_ship.html#ae4135b41b193a8b5d5cef4642157bf80',1,'Ship::Ship(string nom, Engine *e, Hull *h)'],['../class_ship.html#af550f26b56fb2c67f43da63da23d46c0',1,'Ship::Ship(string nom, StealthPartsFactory *SPF)'],['../class_ship.html#a277a6bb501eced4bbeed89e4f1536c61',1,'Ship::Ship(const Ship &amp;)']]],
+  ['ship',['Ship',['../class_ship.html',1,'Ship'],['../class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462',1,'Ship::Ship()'],['../class_ship.html#ae4135b41b193a8b5d5cef4642157bf80',1,'Ship::Ship(string nom, Engine *e, Hull *h)'],['../class_ship.html#af550f26b56fb2c67f43da63da23d46c0',1,'Ship::Ship(string nom, StealthPartsFactory *SPF)'],['../class_ship.html#aacf92025ee8cd8bfe31dc799cf346177',1,'Ship::Ship(string nom, KestrelPartsFactory *KPF)'],['../class_ship.html#a277a6bb501eced4bbeed89e4f1536c61',1,'Ship::Ship(const Ship &amp;)']]],
   ['ship_2ecpp',['Ship.cpp',['../_ship_8cpp.html',1,'']]],
   ['ship_2eh',['Ship.h',['../_ship_8h.html',1,'']]],
   ['ship_5fh_5fincluded',['SHIP_H_INCLUDED',['../_ship_8h.html#a1955e39f423b79cbe15671be5bc6bc16',1,'Ship.h']]],

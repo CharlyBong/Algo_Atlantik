@@ -1,4 +1,4 @@
 <map id="Engine::getSpeed" name="Engine::getSpeed">
 <area shape="rect" id="node2" href="$class_ship.html#ade3a6f90daab94e72f1b80b49b179f33" title="Ship::getSpeed" alt="" coords="179,5,289,32"/>
-<area shape="rect" id="node3" href="$class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un tour d&#39;un bateau. " alt="" coords="337,5,461,32"/>
+<area shape="rect" id="node3" href="$class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un certain nombre de case. " alt="" coords="337,5,461,32"/>
 </map>

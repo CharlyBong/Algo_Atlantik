@@ -1,3 +1,6 @@
 <map id="Ship::setEngine" name="Ship::setEngine">
-<area shape="rect" id="node2" href="$class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="168,5,375,32"/>
+<area shape="rect" id="node2" href="$class_fishing_boat.html#a5ff3e4469d1e660e34fcde063abf4feb" title="FishingBoat::FishingBoat" alt="" coords="187,5,355,32"/>
+<area shape="rect" id="node3" href="$class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3" title="MilitaryShip::MilitaryShip" alt="" coords="188,56,355,83"/>
+<area shape="rect" id="node4" href="$class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="168,107,375,133"/>
+<area shape="rect" id="node5" href="$class_pleasure_craft.html#a396f24fbac27a2924d7cf790e63b7c00" title="PleasureCraft::PleasureCraft" alt="" coords="178,157,365,184"/>
 </map>

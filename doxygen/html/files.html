@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -93,7 +94,7 @@ $(document).ready(function(){initNavTree('files.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,7 +122,7 @@ $(document).ready(function(){initNavTree('files.html','');});
 <tr id="row_9_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_fishing_boat_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_fishing_boat_8cpp.html" target="_self">FishingBoat.cpp</a></td><td class="desc"></td></tr>
 <tr id="row_10_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_fishing_boat_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_fishing_boat_8h.html" target="_self">FishingBoat.h</a></td><td class="desc"></td></tr>
 <tr id="row_11_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_harbor_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_harbor_8cpp.html" target="_self">Harbor.cpp</a></td><td class="desc">Implémentation de la classe <a class="el" href="class_harbor.html" title="Gestion du port : La classe gère le port, instance unique (Singleton) Un fichier de log est généré af...">Harbor</a> </td></tr>
-<tr id="row_12_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_harbor_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_harbor_8h.html" target="_self">Harbor.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_harbor.html" title="Gestion du port : La classe gère le port, instance unique (Singleton) Un fichier de log est généré af...">Harbor</a> </td></tr>
+<tr id="row_12_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_harbor_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_harbor_8h.html" target="_self">Harbor.h</a></td><td class="desc">Classe <a class="el" href="class_harbor.html" title="Gestion du port : La classe gère le port, instance unique (Singleton) Un fichier de log est généré af...">Harbor</a> : Gestion du port </td></tr>
 <tr id="row_13_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_hull_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_hull_8cpp.html" target="_self">Hull.cpp</a></td><td class="desc"></td></tr>
 <tr id="row_14_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_hull_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_hull_8h.html" target="_self">Hull.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_hull.html" title="Coque d&#39;un Ship. ">Hull</a> </td></tr>
 <tr id="row_15_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_kestrel_engine_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_kestrel_engine_8cpp.html" target="_self">KestrelEngine.cpp</a></td><td class="desc"></td></tr>
@@ -132,7 +133,7 @@ $(document).ready(function(){initNavTree('files.html','');});
 <tr id="row_20_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_kestrel_parts_factory_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_kestrel_parts_factory_8h.html" target="_self">KestrelPartsFactory.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_kestrel_parts_factory.html" title="Catalogue de classe Kestrel. ">KestrelPartsFactory</a> </td></tr>
 <tr id="row_21_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="main_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="main_8cpp.html" target="_self">main.cpp</a></td><td class="desc">Fichier principal du programme Fichier de départ du programme </td></tr>
 <tr id="row_22_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_military_ship_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_military_ship_8cpp.html" target="_self">MilitaryShip.cpp</a></td><td class="desc"></td></tr>
-<tr id="row_23_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_military_ship_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_military_ship_8h.html" target="_self">MilitaryShip.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_military_ship.html" title="Ship miliaire. ">MilitaryShip</a> </td></tr>
+<tr id="row_23_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_military_ship_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_military_ship_8h.html" target="_self">MilitaryShip.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_military_ship.html" title="Ship de militaires. ">MilitaryShip</a> </td></tr>
 <tr id="row_24_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_passenger_ship_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_passenger_ship_8cpp.html" target="_self">PassengerShip.cpp</a></td><td class="desc"></td></tr>
 <tr id="row_25_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_passenger_ship_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_passenger_ship_8h.html" target="_self">PassengerShip.h</a></td><td class="desc"></td></tr>
 <tr id="row_26_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_pleasure_craft_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_pleasure_craft_8cpp.html" target="_self">PleasureCraft.cpp</a></td><td class="desc"></td></tr>
@@ -147,6 +148,8 @@ $(document).ready(function(){initNavTree('files.html','');});
 <tr id="row_35_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_stealth_hull_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_stealth_hull_8h.html" target="_self">StealthHull.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_stealth_hull.html" title="Hull de type Stealth. ">StealthHull</a> </td></tr>
 <tr id="row_36_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_stealth_parts_factory_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_stealth_parts_factory_8cpp.html" target="_self">StealthPartsFactory.cpp</a></td><td class="desc"></td></tr>
 <tr id="row_37_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_stealth_parts_factory_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_stealth_parts_factory_8h.html" target="_self">StealthPartsFactory.h</a></td><td class="desc">Déclaration de la classe <a class="el" href="class_stealth_parts_factory.html" title="Catalogue de classe Stealth. ">StealthPartsFactory</a> </td></tr>
+<tr id="row_38_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_visitor_8cpp_source.html"><span class="icondoc"></span></a><a class="el" href="_visitor_8cpp.html" target="_self">Visitor.cpp</a></td><td class="desc"></td></tr>
+<tr id="row_39_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="_visitor_8h_source.html"><span class="icondoc"></span></a><a class="el" href="_visitor_8h.html" target="_self">Visitor.h</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
@@ -154,7 +157,7 @@ $(document).ready(function(){initNavTree('files.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

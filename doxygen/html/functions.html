@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -101,6 +102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
       <li><a href="#index_v"><span>v</span></a></li>
       <li class="current"><a href="#index_~"><span>~</span></a></li>
     </ul>
@@ -125,7 +127,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -194,11 +196,11 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>accept()
-: <a class="el" href="class_fishing_boat.html#acda387f9c42cfe6ffc2179d60fdd0826">FishingBoat</a>
-, <a class="el" href="class_military_ship.html#af0385c7fa583dc5b4debfdcdfc518889">MilitaryShip</a>
-, <a class="el" href="class_passenger_ship.html#a6d83a36cf83a45f865c6abc6f515df52">PassengerShip</a>
-, <a class="el" href="class_pleasure_craft.html#a5f3fbde463e37da04f4174ff654201f2">PleasureCraft</a>
-, <a class="el" href="class_ship.html#ae0372567dec019c3a9c0eed976606e5b">Ship</a>
+: <a class="el" href="class_fishing_boat.html#a0de89a687e1ca15787f72168a93d6c1e">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1">MilitaryShip</a>
+, <a class="el" href="class_passenger_ship.html#a02575748ecfad6c0d259968b7bc51c5d">PassengerShip</a>
+, <a class="el" href="class_pleasure_craft.html#ae3174546954fd68e0bd5921ae8ba5b40">PleasureCraft</a>
+, <a class="el" href="class_ship.html#abaa27215d81990b465e0d11cce235204">Ship</a>
 </li>
 <li>addShip()
 : <a class="el" href="class_harbor.html#a39806743b9754bfee25f71657c8533fd">Harbor</a>
@@ -252,6 +254,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>destroy()
 : <a class="el" href="class_harbor.html#aef836b7248668c920373fe459fb62643">Harbor</a>
 </li>
+<li>display()
+: <a class="el" href="class_visitor.html#ae36fd07d108f75d6fd9e0a7f75a9db79">Visitor</a>
+</li>
 <li>Dock()
 : <a class="el" href="class_dock.html#ae0bf15a46aaa2544092f59de92522f18">Dock</a>
 </li>
@@ -280,17 +285,37 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_harbor.html#a9e5a5eb84eb04c38ae39c68eb1b03928">Harbor</a>
 </li>
 <li>FishingBoat()
-: <a class="el" href="class_fishing_boat.html#ae6995c3406e93012c33a02b80bd8e897">FishingBoat</a>
+: <a class="el" href="class_fishing_boat.html#a5ff3e4469d1e660e34fcde063abf4feb">FishingBoat</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>getColor()
+: <a class="el" href="class_fishing_boat.html#a09d1e41157cb1b472cc55edcaa04fc81">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#acf5174af9b48ed01001d34c39c89abda">MilitaryShip</a>
+, <a class="el" href="class_passenger_ship.html#adf73d38f413ddbc49f605778b34fc934">PassengerShip</a>
+, <a class="el" href="class_pleasure_craft.html#a5cecbb8d47329678b88747b62d3de387">PleasureCraft</a>
+, <a class="el" href="class_ship.html#a4a0eaa215b0c4364064a1d6e78da7130">Ship</a>
+</li>
 <li>getDockaleat()
 : <a class="el" href="class_harbor.html#af400564bf9edeb043ebbb2121e33e540">Harbor</a>
 </li>
+<li>getEngine()
+: <a class="el" href="class_ship.html#abdd4b1b0842a9abb2ea9ab1a6089bc9d">Ship</a>
+</li>
+<li>getHull()
+: <a class="el" href="class_ship.html#a5b84a7a492f137f7e3431ce6560f23ce">Ship</a>
+</li>
 <li>getHullSolidity()
 : <a class="el" href="class_ship.html#ada4a1b54f8d361b71159401985880868">Ship</a>
+</li>
+<li>getIcon()
+: <a class="el" href="class_fishing_boat.html#a88c33e08795f3ff44f95bacd0efb8be2">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e">MilitaryShip</a>
+, <a class="el" href="class_passenger_ship.html#aa1b48a710f7c24264dc79f190d786d78">PassengerShip</a>
+, <a class="el" href="class_pleasure_craft.html#af7ecd9ec023d4623deaad43d8cd342d3">PleasureCraft</a>
+, <a class="el" href="class_ship.html#a9996a63634fe095883ef3dceb3c52877">Ship</a>
 </li>
 <li>getidresa()
 : <a class="el" href="class_harbor.html#a5592da078d635cee2dc42008321abdd8">Harbor</a>
@@ -305,10 +330,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1">Ship</a>
 </li>
 <li>getPriority()
-: <a class="el" href="class_fishing_boat.html#a238efed42f07c5fffe997a68c8d5e638">FishingBoat</a>
-, <a class="el" href="class_military_ship.html#a2f568c03c53f1eaec29414f232acd11d">MilitaryShip</a>
+: <a class="el" href="class_fishing_boat.html#a4ea7418a0c31c25fd9c6ea3b56dd1057">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc">MilitaryShip</a>
 , <a class="el" href="class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf">PassengerShip</a>
-, <a class="el" href="class_pleasure_craft.html#a8b4487c6bb2940ed6b63ce2b09c68018">PleasureCraft</a>
+, <a class="el" href="class_pleasure_craft.html#aa51c62c1044d1fb3281d8522cfa0c8f5">PleasureCraft</a>
 , <a class="el" href="class_ship.html#ae07a228ddd9f92aff12efc809c34e36f">Ship</a>
 </li>
 <li>getresaDock()
@@ -337,7 +362,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>Harbor()
-: <a class="el" href="class_harbor.html#a55d041c3439043d64e85703490bb8f42">Harbor</a>
+: <a class="el" href="class_harbor.html#aecd2c5d02e8c7d434d1faaa2992e3a04">Harbor</a>
 </li>
 <li>Hull()
 : <a class="el" href="class_hull.html#a9e31b2ef66c754c45b6205071e0c3175">Hull</a>
@@ -346,6 +371,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>iamdead
+: <a class="el" href="class_ship.html#aaac245b7e2fdd2fd753f77ff91bffd1e">Ship</a>
+</li>
 <li>isMoveOK()
 : <a class="el" href="class_fishing_boat.html#a5a478ba26a77ea3655b4bcf0c478e902">FishingBoat</a>
 , <a class="el" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">MilitaryShip</a>
@@ -370,14 +398,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
-<li>listatt
-: <a class="el" href="class_cycle.html#a5c13123a9c0d32caef4168f654aab622">Cycle</a>
+<li>listAtt
+: <a class="el" href="class_cycle.html#aa4fd3c06907a551e180500e38c87f9d1">Cycle</a>
 </li>
 <li>listattente()
 : <a class="el" href="class_cycle.html#a0149afc7dbddaad6b0bb790c2e32a510">Cycle</a>
 </li>
-<li>listbat
-: <a class="el" href="class_cycle.html#a877c1c7b497b1b29ec10c8d014639b45">Cycle</a>
+<li>listBat
+: <a class="el" href="class_cycle.html#a27d0767d2932f0edf090ece94e3dcd00">Cycle</a>
 </li>
 <li>listmoveships()
 : <a class="el" href="class_cycle.html#a6078c7b6bc1d492b6287caa859026b50">Cycle</a>
@@ -386,6 +414,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>MilitaryShip()
+: <a class="el" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3">MilitaryShip</a>
+</li>
 <li>moves()
 : <a class="el" href="class_cycle.html#adce432cdd278d159d681f5ceea60f436">Cycle</a>
 </li>
@@ -422,6 +453,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>PassengerShip()
 : <a class="el" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c">PassengerShip</a>
 </li>
+<li>PleasureCraft()
+: <a class="el" href="class_pleasure_craft.html#a396f24fbac27a2924d7cf790e63b7c00">PleasureCraft</a>
+</li>
 <li>posi
 : <a class="el" href="class_bateau.html#ab750e63e4592dd382b1193a37e623e7d">Bateau</a>
 </li>
@@ -451,11 +485,11 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>setHull()
 : <a class="el" href="class_ship.html#aa8926e9dabe0f5cfd4edd1906a3a219b">Ship</a>
 </li>
-<li>SetNom()
-: <a class="el" href="class_ship.html#a99284dc1f4c31f530f20698a51e114fc">Ship</a>
-</li>
 <li>setNom()
 : <a class="el" href="class_ship.html#aa9701a85861c0ab19db13380df69d807">Ship</a>
+</li>
+<li>SetNom()
+: <a class="el" href="class_ship.html#a99284dc1f4c31f530f20698a51e114fc">Ship</a>
 </li>
 <li>setXY()
 : <a class="el" href="class_cell.html#af605e4499c9147e20cb48340f456ab64">Cell</a>
@@ -464,7 +498,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_bateau.html#adafc203d365c2eec485eed3d8b1abb28">Bateau</a>
 </li>
 <li>Ship()
-: <a class="el" href="class_ship.html#a277a6bb501eced4bbeed89e4f1536c61">Ship</a>
+: <a class="el" href="class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462">Ship</a>
 </li>
 <li>ShipPartsFactory()
 : <a class="el" href="class_ship_parts_factory.html#ae9fd7b9f296e944ca6a2e4800352ae83">ShipPartsFactory</a>
@@ -480,6 +514,17 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>surreservation()
 : <a class="el" href="class_dock.html#ad0e9ede311e47737897bcc65219b18ef">Dock</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>type
+: <a class="el" href="class_fishing_boat.html#a7c834353425dfa956c06d7ce886e0112">FishingBoat</a>
+, <a class="el" href="class_military_ship.html#a6f125dc20c003771723c619754635818">MilitaryShip</a>
+, <a class="el" href="class_passenger_ship.html#a32445bab39c131069ec691953eb3fe0f">PassengerShip</a>
+, <a class="el" href="class_pleasure_craft.html#ab400d2be5f3826d96d22270e23050b8b">PleasureCraft</a>
+, <a class="el" href="class_ship.html#a54f3b90cfa64e23c5fb0dfcd41f55a91">Ship</a>
 </li>
 </ul>
 
@@ -505,13 +550,16 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_dock.html#a4876718542e50eba0c950128e0bc2663">Dock</a>
 </li>
 <li>~Engine()
-: <a class="el" href="class_engine.html#a8ef7030a089ecb30bbfcb9e43094717a">Engine</a>
+: <a class="el" href="class_engine.html#a41f2d854040e17d9c4d7b324a4bfbf39">Engine</a>
+</li>
+<li>~FishingBoat()
+: <a class="el" href="class_fishing_boat.html#aaca28406a1483e68b0668553761b22ca">FishingBoat</a>
 </li>
 <li>~Harbor()
 : <a class="el" href="class_harbor.html#aafc7780613d3240583247b5742327b4a">Harbor</a>
 </li>
 <li>~Hull()
-: <a class="el" href="class_hull.html#a4f2f020053a89cfe039fb2f69c878e82">Hull</a>
+: <a class="el" href="class_hull.html#a31091a163c7044dada2ba72b81088765">Hull</a>
 </li>
 <li>~KestrelEngine()
 : <a class="el" href="class_kestrel_engine.html#a093fdafad935a1b1d3e785ae39474f6a">KestrelEngine</a>
@@ -519,8 +567,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>~KestrelHull()
 : <a class="el" href="class_kestrel_hull.html#a131b953bc965866a61a5d4f69e92758f">KestrelHull</a>
 </li>
-<li>~KestrelPartsFactory()
-: <a class="el" href="class_kestrel_parts_factory.html#a1e09eaff149962fe42c441b46f21c23c">KestrelPartsFactory</a>
+<li>~MilitaryShip()
+: <a class="el" href="class_military_ship.html#a6e2bd6bce7f7bb20e46467307e715bf2">MilitaryShip</a>
+</li>
+<li>~PassengerShip()
+: <a class="el" href="class_passenger_ship.html#a283cd2e38369942c6cf37b6956a0e48b">PassengerShip</a>
+</li>
+<li>~PleasureCraft()
+: <a class="el" href="class_pleasure_craft.html#ad6cff169628338ddbcd2a74e285eeba9">PleasureCraft</a>
 </li>
 <li>~Ship()
 : <a class="el" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65">Ship</a>
@@ -540,7 +594,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

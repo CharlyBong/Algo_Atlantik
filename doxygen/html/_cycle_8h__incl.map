@@ -1,12 +1,17 @@
-<map id="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/Cycle.h" name="C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/Cycle.h">
-<area shape="rect" id="node5" href="$_ship_8h.html" title="Déclaration de la classe Ship. " alt="" coords="803,259,861,285"/>
-<area shape="rect" id="node13" href="$_passenger_ship_8h.html" title="PassengerShip.h" alt="" coords="881,109,1002,136"/>
-<area shape="rect" id="node14" href="$_cell_8h.html" title="Déclaration de la classe Cell. " alt="" coords="1091,184,1146,211"/>
-<area shape="rect" id="node15" href="$_harbor_8h.html" title="Déclaration de la classe Harbor. " alt="" coords="506,109,577,136"/>
-<area shape="rect" id="node22" href="$_bateau_8h.html" title="Déclaration de la classe Bateau. " alt="" coords="1027,109,1101,136"/>
-<area shape="rect" id="node9" href="$_engine_8h.html" title="Déclaration de la classe Engine. " alt="" coords="795,333,869,360"/>
-<area shape="rect" id="node10" href="$_hull_8h.html" title="Déclaration de la classe Hull. " alt="" coords="893,333,947,360"/>
-<area shape="rect" id="node11" href="$_stealth_parts_factory_8h.html" title="Déclaration de la classe StealthPartsFactory. " alt="" coords="621,333,771,360"/>
-<area shape="rect" id="node12" href="$_ship_parts_factory_8h.html" title="Déclaration de la classe ShipPartsFactory. " alt="" coords="629,408,763,435"/>
-<area shape="rect" id="node21" href="$_dock_8h.html" title="Déclaration de la classe Dock. " alt="" coords="801,184,863,211"/>
+<map id="C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/Cycle.h" name="C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/Cycle.h">
+<area shape="rect" id="node5" href="$_ship_8h.html" title="Déclaration de la classe Ship. " alt="" coords="522,259,581,285"/>
+<area shape="rect" id="node17" href="$_passenger_ship_8h.html" title="PassengerShip.h" alt="" coords="79,109,200,136"/>
+<area shape="rect" id="node18" href="$_military_ship_8h.html" title="Déclaration de la classe MilitaryShip. " alt="" coords="225,109,326,136"/>
+<area shape="rect" id="node19" href="$_fishing_boat_8h.html" title="FishingBoat.h" alt="" coords="351,109,453,136"/>
+<area shape="rect" id="node20" href="$_pleasure_craft_8h.html" title="Déclaration de la classe PleasureCraft. " alt="" coords="477,109,588,136"/>
+<area shape="rect" id="node21" href="$_cell_8h.html" title="Déclaration de la classe Cell. " alt="" coords="1289,184,1344,211"/>
+<area shape="rect" id="node22" href="$_harbor_8h.html" title="Classe Harbor : Gestion du port. " alt="" coords="747,109,817,136"/>
+<area shape="rect" id="node29" href="$_bateau_8h.html" title="Déclaration de la classe Bateau. " alt="" coords="1163,109,1238,136"/>
+<area shape="rect" id="node10" href="$_engine_8h.html" title="Déclaration de la classe Engine. " alt="" coords="549,333,623,360"/>
+<area shape="rect" id="node12" href="$_hull_8h.html" title="Déclaration de la classe Hull. " alt="" coords="647,333,701,360"/>
+<area shape="rect" id="node13" href="$_stealth_parts_factory_8h.html" title="Déclaration de la classe StealthPartsFactory. " alt="" coords="202,333,351,360"/>
+<area shape="rect" id="node15" href="$_kestrel_parts_factory_8h.html" title="Déclaration de la classe KestrelPartsFactory. " alt="" coords="375,333,525,360"/>
+<area shape="rect" id="node16" href="$_visitor_8h.html" title="Visitor.h" alt="" coords="725,333,796,360"/>
+<area shape="rect" id="node14" href="$_ship_parts_factory_8h.html" title="Déclaration de la classe ShipPartsFactory. " alt="" coords="296,408,431,435"/>
+<area shape="rect" id="node28" href="$_dock_8h.html" title="Déclaration de la classe Dock. " alt="" coords="573,184,636,211"/>
 </map>

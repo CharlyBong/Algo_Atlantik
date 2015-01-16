@@ -1,0 +1,7 @@
+<map id="PleasureCraft::PleasureCraft" name="PleasureCraft::PleasureCraft">
+<area shape="rect" id="node2" href="$class_ship.html#aa9701a85861c0ab19db13380df69d807" title="Ship::setNom" alt="" coords="259,5,360,32"/>
+<area shape="rect" id="node3" href="$class_ship.html#aa8926e9dabe0f5cfd4edd1906a3a219b" title="Ship::setHull" alt="" coords="261,56,357,83"/>
+<area shape="rect" id="node4" href="$class_stealth_parts_factory.html#a9baabc4682581e39a9a713be1851e6a8" title="StealthPartsFactory\l::createHull" alt="" coords="240,107,379,149"/>
+<area shape="rect" id="node5" href="$class_ship.html#ad974b96617db7e8d0deea51fca4b0312" title="Ship::setEngine" alt="" coords="252,173,367,200"/>
+<area shape="rect" id="node6" href="$class_stealth_parts_factory.html#a61aeac32066b30901bca18b8dfa236ee" title="StealthPartsFactory\l::createEngine" alt="" coords="240,225,379,266"/>
+</map>

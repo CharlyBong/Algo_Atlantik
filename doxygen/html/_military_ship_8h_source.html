@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>Atlantik:  Fichier source de C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/MilitaryShip.h</title>
+<title>Atlantik:  Fichier source de C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/MilitaryShip.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -93,7 +94,7 @@ $(document).ready(function(){initNavTree('_military_ship_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('_military_ship_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/MilitaryShip.h</div>  </div>
+<div class="title">C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/MilitaryShip.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="_military_ship_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MILITARYSHIP</span></div>
@@ -115,33 +116,49 @@ $(document).ready(function(){initNavTree('_military_ship_8h_source.html','');});
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_military_ship.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_military_ship.html">MilitaryShip</a> : <span class="keyword">public</span> <a class="code" href="class_ship.html">Ship</a>{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_military_ship.html#af0385c7fa583dc5b4debfdcdfc518889">accept</a>(<span class="keywordtype">int</span> dockId);</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">   22</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">isMoveOK</a>() { <span class="keywordflow">return</span> ( (rand()%100) &gt; (<a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a>*100) ); }</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">   23</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">failureProbability</a>() { <span class="keywordflow">return</span> <a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a>*100; }</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_military_ship.html#a2f568c03c53f1eaec29414f232acd11d">   24</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_military_ship.html#a2f568c03c53f1eaec29414f232acd11d">getPriority</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> 10;}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">   27</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a> = 0.5;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif // MILITARYSHIP</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3">MilitaryShip</a>(<span class="keywordtype">string</span> nom, <a class="code" href="class_stealth_parts_factory.html">StealthPartsFactory</a> *SPF);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3">MilitaryShip</a>(<span class="keywordtype">string</span> nom, <a class="code" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *SPF);</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_military_ship.html#a6f125dc20c003771723c619754635818">   23</a></span>&#160;    <span class="keywordtype">int</span>   <a class="code" href="class_military_ship.html#a6f125dc20c003771723c619754635818">type</a> = 2;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_military_ship.html#a6e2bd6bce7f7bb20e46467307e715bf2">~MilitaryShip</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1">accept</a>(<a class="code" href="class_visitor.html">Visitor</a>* v);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1">accept</a>(<span class="keywordtype">int</span> dockId);</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">   27</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">isMoveOK</a>() { <span class="keywordflow">return</span> ( (rand()%100) &gt; (<a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a>*100) ); }</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">   28</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">failureProbability</a>() { <span class="keywordflow">return</span> <a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a>*100; }</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc">   29</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc">getPriority</a>() {<span class="keywordflow">return</span> 10;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e">   31</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">char</span> <a class="code" href="class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e">getIcon</a>() {<span class="keywordflow">return</span> <span class="stringliteral">&#39;¤&#39;</span>;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_military_ship.html#acf5174af9b48ed01001d34c39c89abda">   32</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_military_ship.html#acf5174af9b48ed01001d34c39c89abda">getColor</a>() {<span class="keywordflow">return</span> 10;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">   35</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">_fp</a> = 0.5;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif // MILITARYSHIP</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="ttc" id="class_military_ship_html_a6e2bd6bce7f7bb20e46467307e715bf2"><div class="ttname"><a href="class_military_ship.html#a6e2bd6bce7f7bb20e46467307e715bf2">MilitaryShip::~MilitaryShip</a></div><div class="ttdeci">~MilitaryShip()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8cpp_source.html#l00020">MilitaryShip.cpp:20</a></div></div>
+<div class="ttc" id="class_military_ship_html_a880ece0a6a520860da1b7d1e36d4fb2e"><div class="ttname"><a href="class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e">MilitaryShip::getIcon</a></div><div class="ttdeci">char getIcon()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00031">MilitaryShip.h:31</a></div></div>
+<div class="ttc" id="class_stealth_parts_factory_html"><div class="ttname"><a href="class_stealth_parts_factory.html">StealthPartsFactory</a></div><div class="ttdoc">Catalogue de classe Stealth. </div><div class="ttdef"><b>Definition:</b> <a href="_stealth_parts_factory_8h_source.html#l00018">StealthPartsFactory.h:18</a></div></div>
+<div class="ttc" id="class_military_ship_html_a6f125dc20c003771723c619754635818"><div class="ttname"><a href="class_military_ship.html#a6f125dc20c003771723c619754635818">MilitaryShip::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00023">MilitaryShip.h:23</a></div></div>
+<div class="ttc" id="class_visitor_html"><div class="ttname"><a href="class_visitor.html">Visitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_visitor_8h_source.html#l00010">Visitor.h:10</a></div></div>
 <div class="ttc" id="_ship_8h_html"><div class="ttname"><a href="_ship_8h.html">Ship.h</a></div><div class="ttdoc">Déclaration de la classe Ship. </div></div>
-<div class="ttc" id="class_military_ship_html_af0385c7fa583dc5b4debfdcdfc518889"><div class="ttname"><a href="class_military_ship.html#af0385c7fa583dc5b4debfdcdfc518889">MilitaryShip::accept</a></div><div class="ttdeci">bool accept(int dockId)</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8cpp_source.html#l00004">MilitaryShip.cpp:4</a></div></div>
-<div class="ttc" id="class_military_ship_html_a7ce17a29400757bb91482b5728f6bbf4"><div class="ttname"><a href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">MilitaryShip::isMoveOK</a></div><div class="ttdeci">bool isMoveOK()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00022">MilitaryShip.h:22</a></div></div>
-<div class="ttc" id="class_military_ship_html_af84b9cf179c367a9180ef02ae4c84897"><div class="ttname"><a href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">MilitaryShip::_fp</a></div><div class="ttdeci">float _fp</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00027">MilitaryShip.h:27</a></div></div>
-<div class="ttc" id="class_military_ship_html"><div class="ttname"><a href="class_military_ship.html">MilitaryShip</a></div><div class="ttdoc">Ship miliaire. </div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00018">MilitaryShip.h:18</a></div></div>
-<div class="ttc" id="class_military_ship_html_ab25602a4f33cd926be52751823e6a930"><div class="ttname"><a href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">MilitaryShip::failureProbability</a></div><div class="ttdeci">float failureProbability()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00023">MilitaryShip.h:23</a></div></div>
-<div class="ttc" id="class_military_ship_html_a2f568c03c53f1eaec29414f232acd11d"><div class="ttname"><a href="class_military_ship.html#a2f568c03c53f1eaec29414f232acd11d">MilitaryShip::getPriority</a></div><div class="ttdeci">int getPriority() const </div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00024">MilitaryShip.h:24</a></div></div>
-<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdoc">un bateau </div><div class="ttdef"><b>Definition:</b> <a href="_ship_8h_source.html#l00030">Ship.h:30</a></div></div>
+<div class="ttc" id="class_military_ship_html_a85d40206a8d4e89c36faed8eeb3091c3"><div class="ttname"><a href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3">MilitaryShip::MilitaryShip</a></div><div class="ttdeci">MilitaryShip(string nom, StealthPartsFactory *SPF)</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8cpp_source.html#l00004">MilitaryShip.cpp:4</a></div></div>
+<div class="ttc" id="class_military_ship_html_ad566422e0ab5ba2e1bd9deacd16b78cc"><div class="ttname"><a href="class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc">MilitaryShip::getPriority</a></div><div class="ttdeci">int getPriority()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00029">MilitaryShip.h:29</a></div></div>
+<div class="ttc" id="class_military_ship_html_a7ce17a29400757bb91482b5728f6bbf4"><div class="ttname"><a href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">MilitaryShip::isMoveOK</a></div><div class="ttdeci">bool isMoveOK()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00027">MilitaryShip.h:27</a></div></div>
+<div class="ttc" id="class_military_ship_html_a236de1f5e9dea3df875a204fcdee37e1"><div class="ttname"><a href="class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1">MilitaryShip::accept</a></div><div class="ttdeci">void accept(Visitor *v)</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8cpp_source.html#l00030">MilitaryShip.cpp:30</a></div></div>
+<div class="ttc" id="class_military_ship_html_af84b9cf179c367a9180ef02ae4c84897"><div class="ttname"><a href="class_military_ship.html#af84b9cf179c367a9180ef02ae4c84897">MilitaryShip::_fp</a></div><div class="ttdeci">float _fp</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00035">MilitaryShip.h:35</a></div></div>
+<div class="ttc" id="class_military_ship_html"><div class="ttname"><a href="class_military_ship.html">MilitaryShip</a></div><div class="ttdoc">Ship de militaires. </div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00018">MilitaryShip.h:18</a></div></div>
+<div class="ttc" id="class_kestrel_parts_factory_html"><div class="ttname"><a href="class_kestrel_parts_factory.html">KestrelPartsFactory</a></div><div class="ttdoc">Catalogue de classe Kestrel. </div><div class="ttdef"><b>Definition:</b> <a href="_kestrel_parts_factory_8h_source.html#l00018">KestrelPartsFactory.h:18</a></div></div>
+<div class="ttc" id="class_military_ship_html_ab25602a4f33cd926be52751823e6a930"><div class="ttname"><a href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">MilitaryShip::failureProbability</a></div><div class="ttdeci">float failureProbability()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00028">MilitaryShip.h:28</a></div></div>
+<div class="ttc" id="class_military_ship_html_acf5174af9b48ed01001d34c39c89abda"><div class="ttname"><a href="class_military_ship.html#acf5174af9b48ed01001d34c39c89abda">MilitaryShip::getColor</a></div><div class="ttdeci">int getColor()</div><div class="ttdef"><b>Definition:</b> <a href="_military_ship_8h_source.html#l00032">MilitaryShip.h:32</a></div></div>
+<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdoc">un bateau </div><div class="ttdef"><b>Definition:</b> <a href="_ship_8h_source.html#l00032">Ship.h:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_military_ship_8h.html">MilitaryShip.h</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -1,0 +1,7 @@
+<map id="KestrelPartsFactory::createHull" name="KestrelPartsFactory::createHull">
+<area shape="rect" id="node2" href="$class_fishing_boat.html#a55217bd164d42199b3b7e9f4448ac2e4" title="FishingBoat::FishingBoat" alt="" coords="211,5,379,32"/>
+<area shape="rect" id="node3" href="$class_military_ship.html#a9e42ef915409e9598003bd697ad4ca39" title="MilitaryShip::MilitaryShip" alt="" coords="212,56,379,83"/>
+<area shape="rect" id="node4" href="$class_passenger_ship.html#ac6cfa3878e39045277234f2b8a34ab00" title="PassengerShip::PassengerShip" alt="" coords="192,107,399,133"/>
+<area shape="rect" id="node5" href="$class_pleasure_craft.html#a97c007a83be40111e1c9054636c31910" title="PleasureCraft::PleasureCraft" alt="" coords="202,157,389,184"/>
+<area shape="rect" id="node6" href="$class_ship.html#aacf92025ee8cd8bfe31dc799cf346177" title="Ship::Ship" alt="" coords="254,208,337,235"/>
+</map>

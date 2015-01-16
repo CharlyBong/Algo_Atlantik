@@ -1,6 +1,6 @@
 <map id="Ship" name="Ship">
 <area shape="rect" id="node2" href="$class_fishing_boat.html" title="Ship de péche. " alt="" coords="5,80,96,107"/>
-<area shape="rect" id="node3" href="$class_military_ship.html" title="Ship miliaire. " alt="" coords="120,80,211,107"/>
+<area shape="rect" id="node3" href="$class_military_ship.html" title="Ship de militaires. " alt="" coords="120,80,211,107"/>
 <area shape="rect" id="node4" href="$class_passenger_ship.html" title="Ship de passager. " alt="" coords="235,80,346,107"/>
 <area shape="rect" id="node5" href="$class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="370,80,470,107"/>
 </map>

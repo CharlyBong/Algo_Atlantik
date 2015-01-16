@@ -1,12 +1,16 @@
 var searchData=
 [
+  ['getcolor',['getColor',['../class_fishing_boat.html#a09d1e41157cb1b472cc55edcaa04fc81',1,'FishingBoat::getColor()'],['../class_military_ship.html#acf5174af9b48ed01001d34c39c89abda',1,'MilitaryShip::getColor()'],['../class_passenger_ship.html#adf73d38f413ddbc49f605778b34fc934',1,'PassengerShip::getColor()'],['../class_pleasure_craft.html#a5cecbb8d47329678b88747b62d3de387',1,'PleasureCraft::getColor()'],['../class_ship.html#a4a0eaa215b0c4364064a1d6e78da7130',1,'Ship::getColor()']]],
   ['getdockaleat',['getDockaleat',['../class_harbor.html#af400564bf9edeb043ebbb2121e33e540',1,'Harbor']]],
+  ['getengine',['getEngine',['../class_ship.html#abdd4b1b0842a9abb2ea9ab1a6089bc9d',1,'Ship']]],
+  ['gethull',['getHull',['../class_ship.html#a5b84a7a492f137f7e3431ce6560f23ce',1,'Ship']]],
   ['gethullsolidity',['getHullSolidity',['../class_ship.html#ada4a1b54f8d361b71159401985880868',1,'Ship']]],
+  ['geticon',['getIcon',['../class_fishing_boat.html#a88c33e08795f3ff44f95bacd0efb8be2',1,'FishingBoat::getIcon()'],['../class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e',1,'MilitaryShip::getIcon()'],['../class_passenger_ship.html#aa1b48a710f7c24264dc79f190d786d78',1,'PassengerShip::getIcon()'],['../class_pleasure_craft.html#af7ecd9ec023d4623deaad43d8cd342d3',1,'PleasureCraft::getIcon()'],['../class_ship.html#a9996a63634fe095883ef3dceb3c52877',1,'Ship::getIcon()']]],
   ['getidresa',['getidresa',['../class_harbor.html#a5592da078d635cee2dc42008321abdd8',1,'Harbor']]],
   ['getinitialpositions',['getInitialPositions',['../class_harbor.html#aa916ce4fe36e9c6f21f97c22f0b3ef36',1,'Harbor']]],
   ['getinstance',['getInstance',['../class_harbor.html#a4497796966893e499d59ca5216f08d84',1,'Harbor']]],
   ['getnom',['getNom',['../class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1',1,'Ship']]],
-  ['getpriority',['getPriority',['../class_fishing_boat.html#a238efed42f07c5fffe997a68c8d5e638',1,'FishingBoat::getPriority()'],['../class_military_ship.html#a2f568c03c53f1eaec29414f232acd11d',1,'MilitaryShip::getPriority()'],['../class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf',1,'PassengerShip::getPriority()'],['../class_pleasure_craft.html#a8b4487c6bb2940ed6b63ce2b09c68018',1,'PleasureCraft::getPriority()'],['../class_ship.html#ae07a228ddd9f92aff12efc809c34e36f',1,'Ship::getPriority()']]],
+  ['getpriority',['getPriority',['../class_fishing_boat.html#a4ea7418a0c31c25fd9c6ea3b56dd1057',1,'FishingBoat::getPriority()'],['../class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc',1,'MilitaryShip::getPriority()'],['../class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf',1,'PassengerShip::getPriority()'],['../class_pleasure_craft.html#aa51c62c1044d1fb3281d8522cfa0c8f5',1,'PleasureCraft::getPriority()'],['../class_ship.html#ae07a228ddd9f92aff12efc809c34e36f',1,'Ship::getPriority()']]],
   ['getresadock',['getresaDock',['../class_harbor.html#a8bc3552dfadc36e53f09f280915be000',1,'Harbor']]],
   ['getship',['getShip',['../class_harbor.html#a03297cc4e7833daf1c6dc82cfa9fff46',1,'Harbor']]],
   ['getsolidity',['getSolidity',['../class_hull.html#a6291cb54028de5134b6034c81baf70e9',1,'Hull']]],

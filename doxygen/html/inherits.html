@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -142,11 +143,15 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
 </td></tr>
 <tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_ship"/>
 <map name="_ship" id="_ship">
-<area shape="rect" id="node1" href="class_ship.html" title="un bateau " alt="" coords="5,81,53,108"/><area shape="rect" id="node2" href="class_fishing_boat.html" title="Ship de péche. " alt="" coords="111,5,202,32"/><area shape="rect" id="node3" href="class_military_ship.html" title="Ship miliaire. " alt="" coords="111,56,202,83"/><area shape="rect" id="node4" href="class_passenger_ship.html" title="Ship de passager. " alt="" coords="101,107,212,133"/><area shape="rect" id="node5" href="class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="107,157,207,184"/></map>
+<area shape="rect" id="node1" href="class_ship.html" title="un bateau " alt="" coords="5,81,53,108"/><area shape="rect" id="node2" href="class_fishing_boat.html" title="Ship de péche. " alt="" coords="111,5,202,32"/><area shape="rect" id="node3" href="class_military_ship.html" title="Ship de militaires. " alt="" coords="111,56,202,83"/><area shape="rect" id="node4" href="class_passenger_ship.html" title="Ship de passager. " alt="" coords="101,107,212,133"/><area shape="rect" id="node5" href="class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="107,157,207,184"/></map>
 </td></tr>
 <tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_ship_parts_factory"/>
 <map name="_ship_parts_factory" id="_ship_parts_factory">
 <area shape="rect" id="node1" href="class_ship_parts_factory.html" title="Catalogue de classe Ship. " alt="" coords="5,31,128,57"/><area shape="rect" id="node2" href="class_kestrel_parts_factory.html" title="Catalogue de classe Kestrel. " alt="" coords="176,5,315,32"/><area shape="rect" id="node3" href="class_stealth_parts_factory.html" title="Catalogue de classe Stealth. " alt="" coords="176,56,315,83"/></map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_visitor"/>
+<map name="_visitor" id="_visitor">
+<area shape="rect" id="node1" href="class_visitor.html" title="Visitor" alt="" coords="5,5,64,32"/></map>
 </td></tr>
 </table>
 </div><!-- contents -->
@@ -154,7 +159,7 @@ $(document).ready(function(){initNavTree('hierarchy.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

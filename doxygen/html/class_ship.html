@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Atlantik
-   &#160;<span id="projectnumber">0.5</span>
+   &#160;<span id="projectnumber">1</span>
    </div>
    <div id="projectbrief">Charles Bongiorno &amp; Lucas Dessaignes</div>
   </td>
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_ship.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -107,7 +108,8 @@ $(document).ready(function(){initNavTree('class_ship.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Fonctions membres publiques</a> &#124;
-<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="#pro-attribs">Attributs protégés</a> &#124;
 <a href="class_ship-members.html">Liste de tous les membres</a>  </div>
   <div class="headertitle">
 <div class="title">Référence de la classe Ship<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -123,7 +125,7 @@ Graphe d'héritage de Ship:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship__inherit__graph.png" border="0" usemap="#_ship_inherit__map" alt="Inheritance graph"/></div>
 <map name="_ship_inherit__map" id="_ship_inherit__map">
-<area shape="rect" id="node2" href="class_fishing_boat.html" title="Ship de péche. " alt="" coords="5,80,96,107"/><area shape="rect" id="node3" href="class_military_ship.html" title="Ship miliaire. " alt="" coords="120,80,211,107"/><area shape="rect" id="node4" href="class_passenger_ship.html" title="Ship de passager. " alt="" coords="235,80,346,107"/><area shape="rect" id="node5" href="class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="370,80,470,107"/></map>
+<area shape="rect" id="node2" href="class_fishing_boat.html" title="Ship de péche. " alt="" coords="5,80,96,107"/><area shape="rect" id="node3" href="class_military_ship.html" title="Ship de militaires. " alt="" coords="120,80,211,107"/><area shape="rect" id="node4" href="class_passenger_ship.html" title="Ship de passager. " alt="" coords="235,80,346,107"/><area shape="rect" id="node5" href="class_pleasure_craft.html" title="Ship de plaisance. " alt="" coords="370,80,470,107"/></map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">légende</a>]</span></center></div>
 <div class="dynheader">
 Graphe de collaboration de Ship:</div>
@@ -137,14 +139,18 @@ Graphe de collaboration de Ship:</div>
 Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:ab7608fcfc4d27c678aacaf9bfd68a462"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462">Ship</a> ()</td></tr>
 <tr class="separator:ab7608fcfc4d27c678aacaf9bfd68a462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cd6eeaffc11b49239b091621963a65"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65">~Ship</a> ()</td></tr>
+<tr class="separator:a43cd6eeaffc11b49239b091621963a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa27215d81990b465e0d11cce235204"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#abaa27215d81990b465e0d11cce235204">accept</a> (<a class="el" href="class_visitor.html">Visitor</a> *v)=0</td></tr>
+<tr class="separator:abaa27215d81990b465e0d11cce235204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4135b41b193a8b5d5cef4642157bf80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ae4135b41b193a8b5d5cef4642157bf80">Ship</a> (string nom, <a class="el" href="class_engine.html">Engine</a> *e, <a class="el" href="class_hull.html">Hull</a> *h)</td></tr>
 <tr class="separator:ae4135b41b193a8b5d5cef4642157bf80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af550f26b56fb2c67f43da63da23d46c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#af550f26b56fb2c67f43da63da23d46c0">Ship</a> (string nom, <a class="el" href="class_stealth_parts_factory.html">StealthPartsFactory</a> *SPF)</td></tr>
 <tr class="separator:af550f26b56fb2c67f43da63da23d46c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf92025ee8cd8bfe31dc799cf346177"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#aacf92025ee8cd8bfe31dc799cf346177">Ship</a> (string nom, <a class="el" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *KPF)</td></tr>
+<tr class="separator:aacf92025ee8cd8bfe31dc799cf346177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277a6bb501eced4bbeed89e4f1536c61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a277a6bb501eced4bbeed89e4f1536c61">Ship</a> (const <a class="el" href="class_ship.html">Ship</a> &amp;)</td></tr>
 <tr class="separator:a277a6bb501eced4bbeed89e4f1536c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43cd6eeaffc11b49239b091621963a65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a43cd6eeaffc11b49239b091621963a65">~Ship</a> ()</td></tr>
-<tr class="separator:a43cd6eeaffc11b49239b091621963a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e5e5a13dfa89acbeeb47835ae422e1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ad8e5e5a13dfa89acbeeb47835ae422e1">getNom</a> () const </td></tr>
 <tr class="separator:ad8e5e5a13dfa89acbeeb47835ae422e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99284dc1f4c31f530f20698a51e114fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a99284dc1f4c31f530f20698a51e114fc">SetNom</a> (string nom)</td></tr>
@@ -159,6 +165,10 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:aa8926e9dabe0f5cfd4edd1906a3a219b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad974b96617db7e8d0deea51fca4b0312"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ad974b96617db7e8d0deea51fca4b0312">setEngine</a> (<a class="el" href="class_engine.html">Engine</a> *e)</td></tr>
 <tr class="separator:ad974b96617db7e8d0deea51fca4b0312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b84a7a492f137f7e3431ce6560f23ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_hull.html">Hull</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a5b84a7a492f137f7e3431ce6560f23ce">getHull</a> ()</td></tr>
+<tr class="separator:a5b84a7a492f137f7e3431ce6560f23ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd4b1b0842a9abb2ea9ab1a6089bc9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#abdd4b1b0842a9abb2ea9ab1a6089bc9d">getEngine</a> ()</td></tr>
+<tr class="separator:abdd4b1b0842a9abb2ea9ab1a6089bc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d18b0a7e563f23918cbdd28bf8f919e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a2d18b0a7e563f23918cbdd28bf8f919e">isMoveOK</a> ()=0</td></tr>
 <tr class="separator:a2d18b0a7e563f23918cbdd28bf8f919e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31de96c51d2a479fe6f280702c235d7c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a31de96c51d2a479fe6f280702c235d7c">failureProbability</a> ()=0</td></tr>
@@ -167,11 +177,22 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:ae0372567dec019c3a9c0eed976606e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07a228ddd9f92aff12efc809c34e36f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ae07a228ddd9f92aff12efc809c34e36f">getPriority</a> ()=0</td></tr>
 <tr class="separator:ae07a228ddd9f92aff12efc809c34e36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9996a63634fe095883ef3dceb3c52877"><td class="memItemLeft" align="right" valign="top">virtual char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a9996a63634fe095883ef3dceb3c52877">getIcon</a> ()=0</td></tr>
+<tr class="separator:a9996a63634fe095883ef3dceb3c52877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0eaa215b0c4364064a1d6e78da7130"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a4a0eaa215b0c4364064a1d6e78da7130">getColor</a> ()=0</td></tr>
+<tr class="separator:a4a0eaa215b0c4364064a1d6e78da7130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60a752541d9a501efb00a0d29e93abc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ship.html">Ship</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a60a752541d9a501efb00a0d29e93abc9">operator=</a> (const <a class="el" href="class_ship.html">Ship</a> &amp;p)</td></tr>
 <tr class="separator:a60a752541d9a501efb00a0d29e93abc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Attributs privés</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:a54f3b90cfa64e23c5fb0dfcd41f55a91"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a54f3b90cfa64e23c5fb0dfcd41f55a91">type</a> = -1</td></tr>
+<tr class="separator:a54f3b90cfa64e23c5fb0dfcd41f55a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac245b7e2fdd2fd753f77ff91bffd1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#aaac245b7e2fdd2fd753f77ff91bffd1e">iamdead</a> = false</td></tr>
+<tr class="separator:aaac245b7e2fdd2fd753f77ff91bffd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Attributs protégés</h2></td></tr>
 <tr class="memitem:a62e2cc86c29adc14be92c7c5c5bbb96a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#a62e2cc86c29adc14be92c7c5c5bbb96a">_nom</a></td></tr>
 <tr class="separator:a62e2cc86c29adc14be92c7c5c5bbb96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9d024a2e7dd98eaa7e8c370dd4091c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ship.html#ae9d024a2e7dd98eaa7e8c370dd4091c1">_engine</a></td></tr>
@@ -184,7 +205,7 @@ Attributs privés</h2></td></tr>
 <dl class="section author"><dt>Auteur</dt><dd>Lucas Dessaignes </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>27 Novembre 2014 </dd></dl>
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00030">30</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00032">32</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 </div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="ab7608fcfc4d27c678aacaf9bfd68a462"></a>
 <div class="memitem">
@@ -200,6 +221,31 @@ Attributs privés</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00007">7</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43cd6eeaffc11b49239b091621963a65"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ship::~Ship </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00033">33</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
 
 </div>
 </div>
@@ -274,6 +320,43 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 </div>
 </div>
+<a class="anchor" id="aacf92025ee8cd8bfe31dc799cf346177"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ship::Ship </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>nom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_kestrel_parts_factory.html">KestrelPartsFactory</a> *&#160;</td>
+          <td class="paramname"><em>KPF</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00026">26</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_ship_aacf92025ee8cd8bfe31dc799cf346177_cgraph.png" border="0" usemap="#class_ship_aacf92025ee8cd8bfe31dc799cf346177_cgraph" alt=""/></div>
+<map name="class_ship_aacf92025ee8cd8bfe31dc799cf346177_cgraph" id="class_ship_aacf92025ee8cd8bfe31dc799cf346177_cgraph">
+<area shape="rect" id="node2" href="class_kestrel_parts_factory.html#a7eaa247a649aefe6b1e6d58a3c5fc8c9" title="KestrelPartsFactory\l::createEngine" alt="" coords="136,5,275,47"/><area shape="rect" id="node3" href="class_kestrel_parts_factory.html#adfc0ae7c4ebbfc6ed0455b11f66151b5" title="KestrelPartsFactory\l::createHull" alt="" coords="136,71,275,112"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a277a6bb501eced4bbeed89e4f1536c61"></a>
 <div class="memitem">
 <div class="memproto">
@@ -292,33 +375,42 @@ Voici le graphe d'appel pour cette fonction :</div>
 
 </div>
 </div>
-<a class="anchor" id="a43cd6eeaffc11b49239b091621963a65"></a>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a class="anchor" id="abaa27215d81990b465e0d11cce235204"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Ship::~Ship </td>
+          <td class="memname">virtual void Ship::accept </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_visitor.html">Visitor</a> *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00026">26</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a0de89a687e1ca15787f72168a93d6c1e">FishingBoat</a>, <a class="el" href="class_military_ship.html#a236de1f5e9dea3df875a204fcdee37e1">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#a02575748ecfad6c0d259968b7bc51c5d">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#ae3174546954fd68e0bd5921ae8ba5b40">PleasureCraft</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
-<div class="center"><img src="class_ship_a43cd6eeaffc11b49239b091621963a65_icgraph.png" border="0" usemap="#class_ship_a43cd6eeaffc11b49239b091621963a65_icgraph" alt=""/></div>
-<map name="class_ship_a43cd6eeaffc11b49239b091621963a65_icgraph" id="class_ship_a43cd6eeaffc11b49239b091621963a65_icgraph">
-<area shape="rect" id="node2" href="class_cycle.html#af478b382c313d045637c0b6de7aa8846" title="Créer un bateau et le faire rentrer dans le port. " alt="" coords="144,5,269,32"/><area shape="rect" id="node3" href="class_harbor.html#ab3319da88c8373cdef4f6fb6b62aec11" title="Gestion de collision entre deux bateau. " alt="" coords="149,56,264,83"/></map>
+<div class="center"><img src="class_ship_abaa27215d81990b465e0d11cce235204_icgraph.png" border="0" usemap="#class_ship_abaa27215d81990b465e0d11cce235204_icgraph" alt=""/></div>
+<map name="class_ship_abaa27215d81990b465e0d11cce235204_icgraph" id="class_ship_abaa27215d81990b465e0d11cce235204_icgraph">
+<area shape="rect" id="node2" href="class_bateau.html#a8545a0456e618328674c5cdf629e14b5" title="Bateau::~Bateau" alt="" coords="151,5,271,32"/><area shape="rect" id="node3" href="class_cycle.html#af478b382c313d045637c0b6de7aa8846" title="Créer un bateau et le faire rentrer dans le port. " alt="" coords="148,56,273,83"/><area shape="rect" id="node4" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="149,107,272,133"/><area shape="rect" id="node5" href="class_harbor.html#a3758bc0fac1975a64b00a9d2194a91e4" title="Réservation d&#39;un quai : Permet de réserver un quai pour un Ship. " alt="" coords="331,81,453,108"/><area shape="rect" id="node6" href="class_harbor.html#a8bc3552dfadc36e53f09f280915be000" title="Réservation d&#39;un quai pour un bateau : réserve un quai pour un bateau, s&#39;il n&#39;y a pas de place..." alt="" coords="321,132,463,159"/></map>
 </div>
 </p>
 
 </div>
 </div>
-<h2 class="groupheader">Documentation des fonctions membres</h2>
 <a class="anchor" id="ae0372567dec019c3a9c0eed976606e5b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -341,16 +433,7 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implémenté dans <a class="el" href="class_fishing_boat.html#acda387f9c42cfe6ffc2179d60fdd0826">FishingBoat</a>, <a class="el" href="class_passenger_ship.html#a6d83a36cf83a45f865c6abc6f515df52">PassengerShip</a>, <a class="el" href="class_military_ship.html#af0385c7fa583dc5b4debfdcdfc518889">MilitaryShip</a>, et <a class="el" href="class_pleasure_craft.html#a5f3fbde463e37da04f4174ff654201f2">PleasureCraft</a>.</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_ship_ae0372567dec019c3a9c0eed976606e5b_icgraph.png" border="0" usemap="#class_ship_ae0372567dec019c3a9c0eed976606e5b_icgraph" alt=""/></div>
-<map name="class_ship_ae0372567dec019c3a9c0eed976606e5b_icgraph" id="class_ship_ae0372567dec019c3a9c0eed976606e5b_icgraph">
-<area shape="rect" id="node2" href="class_dock.html#ab232a09c0c931d0af94a0db7fdbff14f" title="Dock::reservation" alt="" coords="148,31,271,57"/><area shape="rect" id="node3" href="class_harbor.html#a3758bc0fac1975a64b00a9d2194a91e4" title="Réservation d&#39;un quai : Permet de réserver un quai pour un Ship. " alt="" coords="328,5,451,32"/><area shape="rect" id="node4" href="class_harbor.html#a8bc3552dfadc36e53f09f280915be000" title="Réservation d&#39;un quai pour un bateau : réserve un quai pour un bateau, s&#39;il n&#39;y a pas de place..." alt="" coords="319,56,460,83"/></map>
-</div>
-</p>
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#acda387f9c42cfe6ffc2179d60fdd0826">FishingBoat</a>, <a class="el" href="class_military_ship.html#af0385c7fa583dc5b4debfdcdfc518889">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#a6d83a36cf83a45f865c6abc6f515df52">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#a5f3fbde463e37da04f4174ff654201f2">PleasureCraft</a>.</p>
 
 </div>
 </div>
@@ -375,7 +458,82 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implémenté dans <a class="el" href="class_fishing_boat.html#aad9efbef1b35435347e42ea55e26a2f8">FishingBoat</a>, <a class="el" href="class_passenger_ship.html#a47c677961f8f0682a21afab31cbe0dfb">PassengerShip</a>, <a class="el" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">MilitaryShip</a>, et <a class="el" href="class_pleasure_craft.html#afdef955618727aa5314d505d7f1d2aaf">PleasureCraft</a>.</p>
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#aad9efbef1b35435347e42ea55e26a2f8">FishingBoat</a>, <a class="el" href="class_military_ship.html#ab25602a4f33cd926be52751823e6a930">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#a47c677961f8f0682a21afab31cbe0dfb">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#afdef955618727aa5314d505d7f1d2aaf">PleasureCraft</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a0eaa215b0c4364064a1d6e78da7130"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Ship::getColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a09d1e41157cb1b472cc55edcaa04fc81">FishingBoat</a>, <a class="el" href="class_military_ship.html#acf5174af9b48ed01001d34c39c89abda">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#adf73d38f413ddbc49f605778b34fc934">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#a5cecbb8d47329678b88747b62d3de387">PleasureCraft</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abdd4b1b0842a9abb2ea9ab1a6089bc9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine.html">Engine</a>* Ship::getEngine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00056">56</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b84a7a492f137f7e3431ce6560f23ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_hull.html">Hull</a>* Ship::getHull </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00055">55</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 </div>
 </div>
@@ -400,7 +558,7 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00046">46</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00050">50</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -422,6 +580,31 @@ Voici le graphe des appelants de cette fonction :</div>
 
 </div>
 </div>
+<a class="anchor" id="a9996a63634fe095883ef3dceb3c52877"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual char Ship::getIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a88c33e08795f3ff44f95bacd0efb8be2">FishingBoat</a>, <a class="el" href="class_military_ship.html#a880ece0a6a520860da1b7d1e36d4fb2e">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#aa1b48a710f7c24264dc79f190d786d78">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#af7ecd9ec023d4623deaad43d8cd342d3">PleasureCraft</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad8e5e5a13dfa89acbeeb47835ae422e1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +618,7 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00037">37</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00048">48</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
@@ -469,7 +652,7 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implémenté dans <a class="el" href="class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf">PassengerShip</a>.</p>
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a4ea7418a0c31c25fd9c6ea3b56dd1057">FishingBoat</a>, <a class="el" href="class_military_ship.html#ad566422e0ab5ba2e1bd9deacd16b78cc">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#a37bb5feebcfbe74f43d7772d4724cccf">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#aa51c62c1044d1fb3281d8522cfa0c8f5">PleasureCraft</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
@@ -503,7 +686,7 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00047">47</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00051">51</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
@@ -519,7 +702,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship_ade3a6f90daab94e72f1b80b49b179f33_icgraph.png" border="0" usemap="#class_ship_ade3a6f90daab94e72f1b80b49b179f33_icgraph" alt=""/></div>
 <map name="class_ship_ade3a6f90daab94e72f1b80b49b179f33_icgraph" id="class_ship_ade3a6f90daab94e72f1b80b49b179f33_icgraph">
-<area shape="rect" id="node2" href="class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un tour d&#39;un bateau. " alt="" coords="164,5,288,32"/></map>
+<area shape="rect" id="node2" href="class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un certain nombre de case. " alt="" coords="164,5,288,32"/></map>
 </div>
 </p>
 
@@ -546,14 +729,14 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a5a478ba26a77ea3655b4bcf0c478e902">FishingBoat</a>, <a class="el" href="class_passenger_ship.html#a69b009312cefdd5a345e6ee6f6332abd">PassengerShip</a>, <a class="el" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">MilitaryShip</a>, et <a class="el" href="class_pleasure_craft.html#aed3346ea711bd5e7564a5fa0e52d8425">PleasureCraft</a>.</p>
+<p>Implémenté dans <a class="el" href="class_fishing_boat.html#a5a478ba26a77ea3655b4bcf0c478e902">FishingBoat</a>, <a class="el" href="class_military_ship.html#a7ce17a29400757bb91482b5728f6bbf4">MilitaryShip</a>, <a class="el" href="class_passenger_ship.html#a69b009312cefdd5a345e6ee6f6332abd">PassengerShip</a>, et <a class="el" href="class_pleasure_craft.html#aed3346ea711bd5e7564a5fa0e52d8425">PleasureCraft</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship_a2d18b0a7e563f23918cbdd28bf8f919e_icgraph.png" border="0" usemap="#class_ship_a2d18b0a7e563f23918cbdd28bf8f919e_icgraph" alt=""/></div>
 <map name="class_ship_a2d18b0a7e563f23918cbdd28bf8f919e_icgraph" id="class_ship_a2d18b0a7e563f23918cbdd28bf8f919e_icgraph">
-<area shape="rect" id="node2" href="class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un tour d&#39;un bateau. " alt="" coords="168,5,292,32"/></map>
+<area shape="rect" id="node2" href="class_cycle.html#a1f45f66fdfa1590f4a6ada8076cf43a6" title="Avancement d&#39;un certain nombre de case. " alt="" coords="168,5,292,32"/></map>
 </div>
 </p>
 
@@ -573,7 +756,7 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00031">31</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00042">42</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
 
 </div>
 </div>
@@ -599,14 +782,14 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00050">50</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00054">54</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship_ad974b96617db7e8d0deea51fca4b0312_icgraph.png" border="0" usemap="#class_ship_ad974b96617db7e8d0deea51fca4b0312_icgraph" alt=""/></div>
 <map name="class_ship_ad974b96617db7e8d0deea51fca4b0312_icgraph" id="class_ship_ad974b96617db7e8d0deea51fca4b0312_icgraph">
-<area shape="rect" id="node2" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="168,5,375,32"/></map>
+<area shape="rect" id="node2" href="class_fishing_boat.html#a5ff3e4469d1e660e34fcde063abf4feb" title="FishingBoat::FishingBoat" alt="" coords="187,5,355,32"/><area shape="rect" id="node3" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3" title="MilitaryShip::MilitaryShip" alt="" coords="188,56,355,83"/><area shape="rect" id="node4" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="168,107,375,133"/><area shape="rect" id="node5" href="class_pleasure_craft.html#a396f24fbac27a2924d7cf790e63b7c00" title="PleasureCraft::PleasureCraft" alt="" coords="178,157,365,184"/></map>
 </div>
 </p>
 
@@ -634,14 +817,14 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00049">49</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00053">53</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship_aa8926e9dabe0f5cfd4edd1906a3a219b_icgraph.png" border="0" usemap="#class_ship_aa8926e9dabe0f5cfd4edd1906a3a219b_icgraph" alt=""/></div>
 <map name="class_ship_aa8926e9dabe0f5cfd4edd1906a3a219b_icgraph" id="class_ship_aa8926e9dabe0f5cfd4edd1906a3a219b_icgraph">
-<area shape="rect" id="node2" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="149,5,356,32"/></map>
+<area shape="rect" id="node2" href="class_fishing_boat.html#a5ff3e4469d1e660e34fcde063abf4feb" title="FishingBoat::FishingBoat" alt="" coords="169,5,337,32"/><area shape="rect" id="node3" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3" title="MilitaryShip::MilitaryShip" alt="" coords="169,56,336,83"/><area shape="rect" id="node4" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="149,107,356,133"/><area shape="rect" id="node5" href="class_pleasure_craft.html#a396f24fbac27a2924d7cf790e63b7c00" title="PleasureCraft::PleasureCraft" alt="" coords="159,157,346,184"/></map>
 </div>
 </p>
 
@@ -661,7 +844,7 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00028">28</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8cpp_source.html#l00039">39</a> du fichier <a class="el" href="_ship_8cpp_source.html">Ship.cpp</a>.</p>
 
 </div>
 </div>
@@ -687,14 +870,14 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00048">48</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00052">52</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 <p><div class="dynheader">
 Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ship_aa9701a85861c0ab19db13380df69d807_icgraph.png" border="0" usemap="#class_ship_aa9701a85861c0ab19db13380df69d807_icgraph" alt=""/></div>
 <map name="class_ship_aa9701a85861c0ab19db13380df69d807_icgraph" id="class_ship_aa9701a85861c0ab19db13380df69d807_icgraph">
-<area shape="rect" id="node2" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="155,5,361,32"/></map>
+<area shape="rect" id="node2" href="class_fishing_boat.html#a5ff3e4469d1e660e34fcde063abf4feb" title="FishingBoat::FishingBoat" alt="" coords="174,5,342,32"/><area shape="rect" id="node3" href="class_military_ship.html#a85d40206a8d4e89c36faed8eeb3091c3" title="MilitaryShip::MilitaryShip" alt="" coords="175,56,341,83"/><area shape="rect" id="node4" href="class_passenger_ship.html#a5569c2cc0888f35eec5fded18297df7c" title="PassengerShip::PassengerShip" alt="" coords="155,107,361,133"/><area shape="rect" id="node5" href="class_pleasure_craft.html#a396f24fbac27a2924d7cf790e63b7c00" title="PleasureCraft::PleasureCraft" alt="" coords="165,157,351,184"/></map>
 </div>
 </p>
 
@@ -714,12 +897,12 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00034">34</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00035">35</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 </div>
 </div>
@@ -736,12 +919,12 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00035">35</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00036">36</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 </div>
 </div>
@@ -758,18 +941,46 @@ Voici le graphe des appelants de cette fonction :</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00033">33</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00034">34</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaac245b7e2fdd2fd753f77ff91bffd1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ship::iamdead = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00049">49</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54f3b90cfa64e23c5fb0dfcd41f55a91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Ship::type = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définition à la ligne <a class="el" href="_ship_8h_source.html#l00048">48</a> du fichier <a class="el" href="_ship_8h_source.html">Ship.h</a>.</p>
 
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_ship_8h_source.html">Ship.h</a></li>
-<li>C:/Users/cbongiorno/Documents/Mes Documents/M1/MISN/Atlantik/<a class="el" href="_ship_8cpp_source.html">Ship.cpp</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_ship_8h_source.html">Ship.h</a></li>
+<li>C:/Users/cbongiorno/Documents/Mes Documents/Projet/Algo_Atlantik/<a class="el" href="_ship_8cpp_source.html">Ship.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -777,7 +988,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_ship.html">Ship</a></li>
-    <li class="footer">Généré le Jeudi 18 Décembre 2014 15:35:04 pour Atlantik par
+    <li class="footer">Généré le Vendredi 16 Janvier 2015 17:37:17 pour Atlantik par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
