@@ -28,7 +28,7 @@ Cycle::Cycle(){
         if(proba()) createShip();
         listmoveships();
         _perl->print();
-        //Sleep(1000);
+        Sleep(1000);
         cout << endl;
     }
 }
