@@ -130,7 +130,7 @@ void Cycle::movesship(Bateau* ship){
  */
 void Cycle::listmoveships()
 {
-    for (list<Bateau*>::iterator it = listbat.begin(); it != listbat.end(); it++ )
+    for (list<Bateau*>::iterator it = listBat.begin(); it != listBat.end(); it++ )
     {
         if(!(*it)->sh->iamdead)
             movesship(*it);
@@ -140,7 +140,7 @@ void Cycle::listmoveships()
             *it = NULL;
         }
     }
-    listbat.remove(NULL);
+    listBat.remove(NULL);
 }
 
 /** \brief Gestion de la liste d'attente
